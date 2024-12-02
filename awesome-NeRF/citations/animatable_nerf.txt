@@ -1,0 +1,7 @@
+@inproceedings{peng2021animatable,
+  title={Animatable neural radiance fields for modeling dynamic human bodies},
+  author={Peng, Sida and Dong, Junting and Wang, Qianqian and Zhang, Shangzhan and Shuai, Qing and Zhou, Xiaowei and Bao, Hujun},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={14314--14323},
+  year={2021}
+}
