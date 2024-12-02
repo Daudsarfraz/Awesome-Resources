@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Zero-Shot Audio-Visual Compound Expression Recognition Method based on Emotion Probability Fusion">
+    <meta name="keywords" content="CVPRW 2024">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zero-Shot Audio-Visual Compound Expression Recognition Method based on Emotion Probability Fusion</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+
+    <link rel="icon" type="image/png" href="./static/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="./static/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="shortcut icon" href="./static/favicon/favicon.ico" type="image/x-icon">
+
+    <link rel="apple-touch-icon" href="./static/favicon/apple-touch-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/comp-slider.js" defer></script>
+    <script src="./static/js/index.js"></script>
+</head>
+<body>
+<>
+    <a id="btt-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+            <polygon points="12 6.586 3.293 15.293 4.707 16.707 12 9.414 19.293 16.707 20.707 15.293 12 6.586"/>
+        </svg>
+    </a>
+
+    <section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+        <div class="columns is-centered">
+            <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">
+                Zero-Shot Audio-Visual Compound Expression Recognition Method based on Emotion Probability Fusion
+            </h1>
+
+            <div class="is-size-5 publication-authors">
+                <span class="author-block"><a href="https://hci.nw.ru/en/employees/14" target="_blank">Elena Ryumina</a><a class="git-link" href="https://github.com/ElenaRyumina" target="_blank"><span class="icon"><i class="fab fa-github"></i></span></a><sup>1</sup>,</span>
+                <span class="author-block"><a href="https://hci.nw.ru/en/employees/10" target="_blank">Maxim Markitantov</a><sup>1</sup>,</span>
+                <span class="author-block"><a href="https://hci.nw.ru/en/employees/3" target="_blank">Dmitry Ryumin</a><a class="git-link" href="https://github.com/DmitryRyumin" target="_blank"><span class="icon"><i class="fab fa-github"></i></span></a><a class="git-link" href="https://dmitryryumin.github.io/" target="_blank"><span class="icon"><i class="fas fa-globe"></i></span></a><sup>1</sup>,</span>
+                <span class="author-block"><a href="https://www.uu.nl/staff/HKaya" target="_blank">Heysem Kaya</a><sup>2</sup>,</span>
+                <span class="author-block"><a href="https://hci.nw.ru/en/employees/1" target="_blank">Alexey Karpov</a><sup>1</sup>,</span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+                <span class="author-block"><sup>1</sup> St. Petersburg Institute for Informatics and Automation of the Russian Academy of Sciences, <a href="https://spcras.ru/en/" target="_blank">St. Petersburg Federal Research Center of the Russian Academy of Sciences (SPC RAS)</a>, St. Petersburg, Russia</span>
+                <span class="author-block"><sup>2</sup> Department of Information and Computing Sciences Utrecht University, The Netherlands</span>
+                <br />
+                <span><a href="https://affective-behavior-analysis-in-the-wild.github.io/6th/" target="_blank">CVPRW 2024</a> (accepted)</span>
+            </div>
+            <div class="column has-text-centered">
+                <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                    <a href="https://arxiv.org/abs/2403.12687"
+                    target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                    </a>
+                </span>
+                <!-- Code Link. -->
+                <span class="link-block">
+                    <a href="https://github.com/C-EXPR-DB/AVCER/tree/main/src/" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                    </a>
+                </span>
+                <!-- Model Link. -->
+                <span class="link-block">
+                    <a href="#" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span>🤗 Model (coming soon)</span>
+                    </a>
+                </span>
+                <!-- Demo Link. -->
+                <span class="link-block">
+                    <a href="#"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span>🤗 Demo (coming soon)</span>
+                    </a>
+                </span>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+    <section class="section" style="padding: 0; margin:0">
+
+        <div class="TODO-section">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-four-fifths">
+                        <h2 class="title is-5">TODO List</h2>
+                        <div class="content has-text-justified">
+                            <svg viewBox="0 0 0 0" style="position: absolute; z-index: -1; opacity: 0;">
+                                <defs>
+                                    <path id="todo__line" stroke="#363636" d="M21 12.3h280v0.1z" ></path>
+                                    <path id="todo__box" stroke="#363636" d="M21 12.7v5c0 1.3-1 2.3-2.3 2.3H8.3C7 20 6 19 6 17.7V7.3C6 6 7 5 8.3 5h10.4C20 5 21 6 21 7.3v5.4"></path>
+                                    <path id="todo__check" stroke="#2b8f30" d="M10 13l2 2 5-5"></path>
+                                    <circle id="todo__circle" cx="13.5" cy="12.5" r="10"></circle>
+                                </defs>
+                            </svg>
+                            <div class="todo-list">
+
+                            <label class="todo">
+                                <input class="todo__state" type="checkbox" />
+
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 25" class="todo__icon">
+                                <use xlink:href="#todo__line" class="todo__line"></use>
+                                <use xlink:href="#todo__box" class="todo__box"></use>
+                                <use xlink:href="#todo__check" class="todo__check"></use>
+                                <use xlink:href="#todo__circle" class="todo__circle"></use>
+                                </svg>
+
+                                <div class="todo__text">GitHub page creation</div>
+                            </label>
+
+                            <label class="todo">
+                                <input class="todo__state" type="checkbox" />
+
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 25" class="todo__icon">
+                                <use xlink:href="#todo__line" class="todo__line"></use>
+                                <use xlink:href="#todo__box" class="todo__box"></use>
+                                <use xlink:href="#todo__check" class="todo__check"></use>
+                                <use xlink:href="#todo__circle" class="todo__circle"></use>
+                                </svg>
+
+                                <div class="todo__text">arXiv paper submission</div>
+                            </label>
+
+                            <label class="todo">
+                                <input class="todo__state" type="checkbox" />
+
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 25" class="todo__icon">
+                                <use xlink:href="#todo__line" class="todo__line"></use>
+                                <use xlink:href="#todo__box" class="todo__box"></use>
+                                <use xlink:href="#todo__check" class="todo__check"></use>
+                                <use xlink:href="#todo__circle" class="todo__circle"></use>
+                                </svg>
+
+                                <div class="todo__text">Release code</div>
+                            </label>
+
+                            <label class="todo">
+                                <input class="todo__state" type="checkbox" />
+
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 25" class="todo__icon">
+                                <use xlink:href="#todo__line" class="todo__line"></use>
+                                <use xlink:href="#todo__box" class="todo__box"></use>
+                                <use xlink:href="#todo__check" class="todo__check"></use>
+                                <use xlink:href="#todo__circle" class="todo__circle"></use>
+                                </svg>
+
+                                <div class="todo__text">Release Models and Demo (soon) </div>
+                            </label>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="abstract-section">
+            <div class="container is-max-desktop abstract-sect">
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-four-fifths">
+                        <h2 class="title is-3">Abstract</h2>
+                        <div class="content has-text-justified">
+                            <p>
+                                A Compound Expression Recognition (CER) as a part of affective computing is a novel task in intelligent human-computer interaction and multimodal user interfaces. We propose a novel audio-visual method for CER. Our method relies on emotion recognition models that fuse modalities at the emotion probability level, while decisions regarding the prediction of compound expressions are based on the pair-wise sum of weighted emotion probability distributions. Notably, our method does not use any training data specific to the target task. Thus, the problem is a zero-shot classification task. The method is evaluated in multi-corpus training and cross-corpus validation setups. We achieved F1-score values equal to 32.15% and 25.56% for the AffWild2 and C-EXPR-DB test subsets without training on target corpus and target task, respectively. Therefore, our method is on par with methods developed training target corpus or target task.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pipeline-section">
+            <div class="container is-max-desktop">
+                <div class="pipeline">
+                    <div class="columns is-centered has-text-centered">
+                        <div class="column is-four-fifths">
+                            <h2 class="title is-3">Pipeline of the proposed audio-visual CER method</h2>
+                            <img class="img-method" src="./static/img/Pipeline.jpg" alt="pipeline">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pipeline-section">
+            <div class="container is-max-desktop">
+                <div class="pipeline">
+                    <div class="columns is-centered has-text-centered">
+                        <div class="column is-four-fifths">
+                            <h2 class="title is-3">An example of CEs prediction using video from the C-EXPR-DB corpus</h2>
+                            <img class="img-method" src="./static/img/Predictions.png" alt="pipeline">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="conclusion-section">
+            <div class="container is-max-desktop">
+                <div class="conclusion">
+                    <div class="columns is-centered has-text-centered">
+                        <div class="column is-four-fifths">
+                            <h2 class="title is-3">Conclusion</h2>
+                            <div class="content has-text-justified">
+                                <p>
+                                In this paper, we propose a novel audio-visual method for CER. The method integrates three models, including the static and dynamic visual models, as well as the audio model. Each model predicts the emotion probabilities for six basic emotions and the neutral state. The emotional probabilities are then weighted using the Dirichlet distribution. Finally, the pair-wise sum of weighted emotion probability distributions is applied to determine the compound emotions. Additionally, we provide new baselines for recognizing seven emotions on the validation subsets of the AffWild2 and AFEW corpora.
+                                </p>
+                                <p>
+                                The experimental results demonstrate that each model is responsible for predicting specific Compound Expression (CE). For example, the acoustic model is responsible for predicting the Angry Surprised and Sadly Angry, the static visual model is responsible for predicting the Happily Surprised class, and the dynamic visual model predicts other CE well. In our future research, we aim to improve the generalization ability of the proposed method by adding a text model and increasing the number of heterogeneous training corpora for multi-corpus and cross-corpus studies.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="related-section">
+            <div class="container is-max-desktop">
+                <div class="related">
+                    <div class="columns is-centered has-text-centered">
+                        <div class="column is-four-fifths">
+                            <h2 class="title is-3">Our Selected Research Papers</h2>
+                            <div class="content has-text-justified">
+                                <h5>Journals</h5>
+                                <ul>
+                                    <li><span>Expert Systems with Applications 2024</span> <a href="https://www.sciencedirect.com/science/article/pii/S0957417423029433">OCEAN-AI Framework with EmoFormer Cross-Hemiface Attention Approach for Personality Traits Assessment</a>, Elena Ryumina, Maxim Markitantov, Dmitry Ryumin, and Alexey Karpov</li>
+                                    <li><span>Neurocomputing 2022</span> <a href="https://www.sciencedirect.com/science/article/pii/S0957417423029433">In Search of a Robust Facial Expressions Recognition Model: A Large-Scale Visual Cross-Corpus Study</a>, Elena Ryumina, Denis Dresvyanskiy, and Alexey Karpov
+                                    <br /><a href="https://paperswithcode.com/paper/in-search-of-a-robust-facial-expressions" rel="nofollow"><img src="https://camo.githubusercontent.com/d2471073e465b118f276989de257c73d3eb6955234794f47d66509ed90059199/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e742e7376673f75726c3d68747470733a2f2f70617065727377697468636f64652e636f6d2f62616467652f696e2d7365617263682d6f662d612d726f627573742d66616369616c2d65787072657373696f6e732f66616369616c2d65787072657373696f6e2d7265636f676e6974696f6e2d6f6e2d6166666563746e6574" alt="PWC" data-canonical-src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/in-search-of-a-robust-facial-expressions/facial-expression-recognition-on-affectnet" style="max-width: 100%;"></a><a href="https://github.com/ElenaRyumina/EMO-AffectNetModel" style="margin-right: 6px;"><img src="https://camo.githubusercontent.com/c42130ce2610dedaf32e82f1053e6962d5646bdf170674965931510115629239/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f456c656e615279756d696e612f454d4f2d4166666563744e65744d6f64656c3f7374796c653d666c6174" alt="GitHub" data-canonical-src="https://img.shields.io/github/stars/ElenaRyumina/EMO-AffectNetModel?style=flat" style="max-width: 100%;"></a><a href="https://huggingface.co/spaces/ElenaRyumina/Facial_Expression_Recognition" rel="nofollow"><img src="https://camo.githubusercontent.com/b47eb22e9cb48968075f675468783c83b24a24c6be9dbec43e779957803f89e1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2546302539462541342539372d44454d4f2d2d46616369616c25323045787072657373696f6e732532305265636f676e6974696f6e2d4646443231462e737667" alt="App" data-canonical-src="https://img.shields.io/badge/%F0%9F%A4%97-DEMO--Facial%20Expressions%20Recognition-FFD21F.svg" style="max-width: 100%;"></a></li>
+                                </ul>
+                                <h5>Conferences</h5>
+                                <ul>
+                                    <li><span>ICASSP 2024</span> <a href="https://ieeexplore.ieee.org/document/10448048">Audio-Visual Speech Recognition In-the-Wild: Multi-Angle Vehicle Cabin Corpus and Attention-based Method</a>, Alexandr Axyonov, Dmitry Ryumin, Denis Ivanko, Alexey Kashevnik, Alexey Karpov</li>
+                                    <li><span>INTERSPEECH 2023</span> <a href="https://www.isca-speech.org/archive/interspeech_2023/ryumina23_interspeech.html">Multimodal Personality Traits Assessment (MuPTA) Corpus: the Impact of Spontaneous and Read Speech</a>, Elena Ryumina, Dmitry Ryumin, Maxim Markitantov, Heysem Kaya, and Alexey Karpov</li>
+                                    <li><span>INTERSPEECH 2022</span> <a href="https://www.isca-speech.org/archive/interspeech_2022/markitantov22_interspeech.html">Biometric Russian Audio-Visual Extended MASKS (BRAVE-MASKS) Corpus: Multimodal Mask Type Recognition Task</a>, Maxim Markitantov, Elena Ryumina, Dmitry Ryumin, and Alexey Karpov</li>
+                                    <li><span>INTERSPEECH 2022</span> <a href="https://www.isca-speech.org/archive/interspeech_2022/ivanko22_interspeech.html">DAVIS: Driver's Audio-Visual Speech Recognition</a>, Denis Ivanko, Dmitry Ryumin, Alexey Kashevnik, Alexandr Axyonov, Andrey Kitenko, Igor Lashkov, and Alexey Karpov</li>
+                                    <li><span>INTERSPEECH 2021</span> <a href="https://www.isca-speech.org/archive/interspeech_2021/ryumina21_interspeech.html">Annotation Confidence vs. Training Sample Size: Trade-Off Solution for Partially-Continuous Categorical Emotion Recognition</a>, Elena Ryumina, Oxana Verkholyak, and Alexey Karpov</li>
+                                    <li><span>INTERSPEECH 2021</span> <a href="https://www.isca-speech.org/archive/interspeech_2021/verkholyak21_interspeech.html">Annotation Confidence vs. Training Sample Size: Trade-Off Solution for Partially-Continuous Categorical Emotion Recognition</a>, Oxana Verkholyak, Denis Dresvyanskiy, Anastasia Dvoynikova, Denis Kotov, Elena Ryumina, Alena Velichko, Danila Mamontov, Wolfgang Minker, and Alexey Karpov</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <a class="icon-link external-link" href="https://github.com/C-EXPR-DB" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content">
+                        <p>
+                        This page was built using the <a href="https://github.com/ElenaRyumina/AVCER" target="_blank">AVCER project page</a>, which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+                        You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+                        Commons Attribution-ShareAlike 4.0 International License</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div style="width:300px; margin: 0px auto; padding: 10px 0px;"><script type="text/javascript" src="//rf.revolvermaps.com/0/0/7.js?i=5ttywoes6sp&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;sx=0" async="async"></script></div>
+</body>
+</html>
