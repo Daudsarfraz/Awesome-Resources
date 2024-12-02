@@ -1,0 +1,996 @@
+# 2021-Reinforcement-Learning-Conferences-Papers
+
+The proceedings of top conference in 2021 on the topic of **Reinforcement Learning** (RL), including: AAAI, IJCAI, NeurIPS, ICML, ICLR, ICRA, AAMAS and more.
+
+## Related Repository
+
+| Repository                                                   | Remark                                                       |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Awesome-Reinforcement-Learning-Papers](https://github.com/Allenpandas/Awesome-Reinforcement-Learning-Papers) | <a href="https://github.com/Allenpandas/Awesome-Reinforcement-Learning-Papers"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Allenpandas/Awesome-Reinforcement-Learning-Papers"></a> <a href="https://github.com/Allenpandas/Awesome-Reinforcement-Learning-Papers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Allenpandas/Awesome-Reinforcement-Learning-Papers"></a> <a href="https://github.com/Allenpandas/Awesome-Reinforcement-Learning-Papers"><img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/Allenpandas/Awesome-Reinforcement-Learning-Papers"></a> |
+| [Tutorial4RL](https://github.com/Allenpandas/Tutorial4RL)    | <a href="https://github.com/Allenpandas/Tutorial4RL"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Allenpandas/Tutorial4RL"></a> <a href="https://github.com/Allenpandas/Tutorial4RL"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Allenpandas/Tutorial4RL"></a> <a href="https://github.com/Allenpandas/Tutorial4RL"><img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/Allenpandas/Tutorial4RL"></a> |
+| [2023-Reinforcement-Learning-Conferences-Papers](https://github.com/Allenpandas/2023-Reinforcement-Learning-Conferences-Papers) | <a href="https://github.com/Allenpandas/2023-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Allenpandas/2023-Reinforcement-Learning-Conferences-Papers"></a> <a href="https://github.com/Allenpandas/2023-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Allenpandas/2023-Reinforcement-Learning-Conferences-Papers"></a> <a href="https://github.com/Allenpandas/2023-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/Allenpandas/2023-Reinforcement-Learning-Conferences-Papers"></a> |
+| [2022-Reinforcement-Learning-Conferences-Papers](https://github.com/Allenpandas/2022-Reinforcement-Learning-Conferences-Papers) | <a href="https://github.com/Allenpandas/2022-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Allenpandas/2022-Reinforcement-Learning-Conferences-Papers"></a> <a href="https://github.com/Allenpandas/2022-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Allenpandas/2022-Reinforcement-Learning-Conferences-Papers"></a> <a href="https://github.com/Allenpandas/2022-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/Allenpandas/2022-Reinforcement-Learning-Conferences-Papers"></a> |
+| [2021-Reinforcement-Learning-Conferences-Papers](https://github.com/Allenpandas/2021-Reinforcement-Learning-Conferences-Papers) | <a href="https://github.com/Allenpandas/2021-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Allenpandas/2021-Reinforcement-Learning-Conferences-Papers"></a> <a href="https://github.com/Allenpandas/2021-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Allenpandas/2021-Reinforcement-Learning-Conferences-Papers"></a> <a href="https://github.com/Allenpandas/2021-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/Allenpandas/2021-Reinforcement-Learning-Conferences-Papers"></a> |
+| [2020-Reinforcement-Learning-Conferences-Papers](https://github.com/Allenpandas/2020-Reinforcement-Learning-Conferences-Papers) | <a href="https://github.com/Allenpandas/2020-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Allenpandas/2020-Reinforcement-Learning-Conferences-Papers"></a> <a href="https://github.com/Allenpandas/2020-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Allenpandas/2020-Reinforcement-Learning-Conferences-Papers"></a> <a href="https://github.com/Allenpandas/2020-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/Allenpandas/2020-Reinforcement-Learning-Conferences-Papers"></a> |
+| [2019-Reinforcement-Learning-Conferences-Papers](https://github.com/Allenpandas/2019-Reinforcement-Learning-Conferences-Papers) | <a href="https://github.com/Allenpandas/2019-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Allenpandas/2019-Reinforcement-Learning-Conferences-Papers"></a> <a href="https://github.com/Allenpandas/2019-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Allenpandas/2019-Reinforcement-Learning-Conferences-Papers"></a> <a href="https://github.com/Allenpandas/2019-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/Allenpandas/2019-Reinforcement-Learning-Conferences-Papers"></a> |
+| [2018-Reinforcement-Learning-Conferences-Papers](https://github.com/Allenpandas/2018-Reinforcement-Learning-Conferences-Papers) | <a href="https://github.com/Allenpandas/2018-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Allenpandas/2018-Reinforcement-Learning-Conferences-Papers"></a> <a href="https://github.com/Allenpandas/2018-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Allenpandas/2018-Reinforcement-Learning-Conferences-Papers"></a> <a href="https://github.com/Allenpandas/2018-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/Allenpandas/2018-Reinforcement-Learning-Conferences-Papers"></a> |
+| [2017-Reinforcement-Learning-Conferences-Papers](https://github.com/Allenpandas/2017-Reinforcement-Learning-Conferences-Papers) | <a href="https://github.com/Allenpandas/2017-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Allenpandas/2017-Reinforcement-Learning-Conferences-Papers"></a> <a href="https://github.com/Allenpandas/2017-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Allenpandas/2017-Reinforcement-Learning-Conferences-Papers"></a> <a href="https://github.com/Allenpandas/2017-Reinforcement-Learning-Conferences-Papers"><img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/Allenpandas/2017-Reinforcement-Learning-Conferences-Papers"></a> |
+
+
+## Todo
+
+* [x] Related repository
+* [x] AAAI'2021
+* [x] AAMAS'2021
+* [x] ICLR'2021
+* [x] ICML'2021
+* [x] ICRA'2021
+* [x] IJCAI'2021
+* [x] NeurIPS'2021
+
+## Contributing
+
+<p align="center">
+  <img src="./we-need-you.jpeg" alt="We Need You!">
+</p>
+
+
+**Markdown format：**
+
+```
+- **Paper Name**.
+  [[pdf](link)]
+  [[code](link)]
+  - Author 1, Author 2, and Author 3. *conference, year*.
+```
+
+Please help to contribute this list by contacting me or add pull request. 
+
+For any questions, feel free to contact me 📮.
+
+## Table of Contents
+
+- [AAAI Conference on Artificial Intelligence (AAAI'2021)](#AAAI-Conference-on-Artificial-Intelligence)
+- [International Conference on Autonomous Agents and Multiagent Systems (AAMAS'2021)](#International-Conference-on-Autonomous-Agents-and-Multiagent-Systems)
+- [International Conference on Learning Representations (ICLR'2021)](#International-Conference-on-Learning-Representations)
+- [International Conference on Machine Learning (ICML'2021)](#International-Conference-on-Machine-Learning)
+- [International Conference on Robotics and Automation (ICRA'2021)](#International-Conference-on-Robotics-and-Automation)
+- [International Joint Conference on Artificial Intelligence (IJCAI'2021)](#International-Joint-Conference-on-Artificial-Intelligence)
+- [Annual Conference on Neural Information Processing Systems (NeurIPS'2021)](#Annual-Conference-on-Neural-Information-Processing-Systems)
+
+## AAAI Conference on Artificial Intelligence
+
+ - **Towered Actor Critic For Handling Multiple Action Types In Reinforcement Learning For Drug Discovery.** [[pdf](https://doi.org/10.1609/aaai.v35i1.16087)]
+   - Sai Krishna Gottipati, Yashaswi Pathak, Boris Sattarov, Sahir, Rohan Nuttall, Mohammad Amini, Matthew E. Taylor, Sarath Chandar. *AAAI 2021*.
+ - **Queue-Learning: A Reinforcement Learning Approach for Providing Quality of Service.** [[pdf](https://doi.org/10.1609/aaai.v35i1.16123)]
+   - Majid Raeis, Ali Tizghadam, Alberto Leon-Garcia. *AAAI 2021*.
+ - **Content Masked Loss: Human-Like Brush Stroke Planning in a Reinforcement Learning Painting Agent.** [[pdf](https://doi.org/10.1609/aaai.v35i1.16128)]
+   - Peter Schaldenbrand, Jean Oh. *AAAI 2021*.
+ - **DeepTrader: A Deep Reinforcement Learning Approach for Risk-Return Balanced Portfolio Management with Market Conditions Embedding.** [[pdf](https://doi.org/10.1609/aaai.v35i1.16144)]
+   - Zhicheng Wang, Biwei Huang, Shikui Tu, Kun Zhang, Lei Xu. *AAAI 2021*.
+ - **Online 3D Bin Packing with Constrained Deep Reinforcement Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i1.16155)]
+   - Hang Zhao, Qijin She, Chenyang Zhu, Yin Yang, Kai Xu. *AAAI 2021*.
+ - **DEAR: Deep Reinforcement Learning for Online Advertising Impression in Recommender Systems.** [[pdf](https://doi.org/10.1609/aaai.v35i1.16156)]
+   - Xiangyu Zhao, Changsheng Gu, Haoshenglun Zhang, Xiwang Yang, Xiaobing Liu, Jiliang Tang, Hui Liu. *AAAI 2021*.
+ - **Visual Comfort Aware-Reinforcement Learning for Depth Adjustment of Stereoscopic 3D Images.** [[pdf](https://doi.org/10.1609/aaai.v35i2.16270)]
+   - Hak Gu Kim, Minho Park, Sangmin Lee, Seongyeop Kim, Yong Man Ro. *AAAI 2021*.
+ - **FontRL: Chinese Font Synthesis via Deep Reinforcement Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i3.16318)]
+   - Yitian Liu, Zhouhui Lian. *AAAI 2021*.
+ - **Visual Tracking via Hierarchical Deep Reinforcement Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i4.16443)]
+   - Dawei Zhang, Zhonglong Zheng, Riheng Jia, Minglu Li. *AAAI 2021*.
+ - **Combining Reinforcement Learning and Constraint Programming for Combinatorial Optimization.** [[pdf](https://doi.org/10.1609/aaai.v35i5.16484)]
+   - Quentin Cappart, Thierry Moisan, Louis-Martin Rousseau, Isabeau Prémont-Schwarz, André A. Ciré. *AAAI 2021*.
+ - **Reinforcement Learning with a Disentangled Universal Value Function for Item Recommendation.** [[pdf](https://doi.org/10.1609/aaai.v35i5.16569)]
+   - Kai Wang, Zhene Zou, Qilin Deng, Jianrong Tao, Runze Wu, Changjie Fan, Liang Chen, Peng Cui. *AAAI 2021*.
+ - **A General Offline Reinforcement Learning Framework for Interactive Recommendation.** [[pdf](https://doi.org/10.1609/aaai.v35i5.16579)]
+   - Teng Xiao, Donglin Wang. *AAAI 2021*.
+ - **Hierarchical Reinforcement Learning for Integrated Recommendation.** [[pdf](https://doi.org/10.1609/aaai.v35i5.16580)]
+   - Ruobing Xie, Shaoliang Zhang, Rui Wang, Feng Xia, Leyu Lin. *AAAI 2021*.
+ - **Encoding Human Domain Knowledge to Warm Start Reinforcement Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i6.16638)]
+   - Andrew Silva, Matthew C. Gombolay. *AAAI 2021*.
+ - **Reinforcement Learning of Sequential Price Mechanisms.** [[pdf](https://doi.org/10.1609/aaai.v35i6.16659)]
+   - Gianluca Brero, Alon Eden, Matthias Gerstgrasser, David C. Parkes, Duncan Rheingans-Yoo. *AAAI 2021*.
+ - **A Deep Reinforcement Learning Approach to First-Order Logic Theorem Proving.** [[pdf](https://doi.org/10.1609/aaai.v35i7.16780)]
+   - Maxwell Crouse, Ibrahim Abdelaziz, Bassem Makni, Spencer Whitehead, Cristina Cornelio, Pavan Kapanipathi, Kavitha Srinivas, Veronika Thost, Michael Witbrock, Achille Fokoue. *AAAI 2021*.
+ - **The Value-Improvement Path: Towards Better Representations for Reinforcement Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i8.16880)]
+   - Will Dabney, André Barreto, Mark Rowland, Robert Dadashi, John Quan, Marc G. Bellemare, David Silver. *AAAI 2021*.
+ - **Reinforcement Learning with Trajectory Feedback.** [[pdf](https://doi.org/10.1609/aaai.v35i8.16895)]
+   - Yonathan Efroni, Nadav Merlis, Shie Mannor. *AAAI 2021*.
+ - **Towards Effective Context for Meta-Reinforcement Learning: an Approach based on Contrastive Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i8.16914)]
+   - Haotian Fu, Hongyao Tang, Jianye Hao, Chen Chen, Xidong Feng, Dong Li, Wulong Liu. *AAAI 2021*.
+ - **DeepSynth: Automata Synthesis for Automatic Task Segmentation in Deep Reinforcement Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i9.16935)]
+   - Mohammadhosein Hasanbeig, Natasha Yogananda Jeppu, Alessandro Abate, Tom Melham, Daniel Kroening. *AAAI 2021*.
+ - **Learning with Safety Constraints: Sample Complexity of Reinforcement Learning for Constrained MDPs.** [[pdf](https://doi.org/10.1609/aaai.v35i9.16937)]
+   - Aria HasanzadeZonuzy, Archana Bura, Dileep M. Kalathil, Srinivas Shakkottai. *AAAI 2021*.
+ - **Reinforcement Learning Based Multi-Agent Resilient Control: From Deep Neural Networks to an Adaptive Law.** [[pdf](https://doi.org/10.1609/aaai.v35i9.16945)]
+   - Jian Hou, Fangyuan Wang, Lili Wang, Zhiyong Chen. *AAAI 2021*.
+ - **Learning to Reweight Imaginary Transitions for Model-Based Reinforcement Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i9.16958)]
+   - Wenzhen Huang, Qiyue Yin, Junge Zhang, Kaiqi Huang. *AAAI 2021*.
+ - **Temporal-Logic-Based Reward Shaping for Continuing Reinforcement Learning Tasks.** [[pdf](https://doi.org/10.1609/aaai.v35i9.16975)]
+   - Yuqian Jiang, Suda Bharadwaj, Bo Wu, Rishi Shah, Ufuk Topcu, Peter Stone. *AAAI 2021*.
+ - **Metrics and Continuity in Reinforcement Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i9.17005)]
+   - Charline Le Lan, Marc G. Bellemare, Pablo Samuel Castro. *AAAI 2021*.
+ - **Lipschitz Lifelong Reinforcement Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i9.17006)]
+   - Erwan Lecarpentier, David Abel, Kavosh Asadi, Yuu Jinnai, Emmanuel Rachelson, Michael L. Littman. *AAAI 2021*.
+ - **Decentralized Policy Gradient Descent Ascent for Safe Multi-Agent Reinforcement Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i10.17062)]
+   - Songtao Lu, Kaiqing Zhang, Tianyi Chen, Tamer Basar, Lior Horesh. *AAAI 2021*.
+ - **Exact Reduction of Huge Action Spaces in General Reinforcement Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i10.17074)]
+   - Sultan Javed Majeed, Marcus Hutter. *AAAI 2021*.
+ - **Scheduling of Time-Varying Workloads Using Reinforcement Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i10.17088)]
+   - Shanka Subhra Mondal, Nikhil Sheoran, Subrata Mitra. *AAAI 2021*.
+ - **Advice-Guided Reinforcement Learning in a non-Markovian Environment.** [[pdf](https://doi.org/10.1609/aaai.v35i10.17096)]
+   - Daniel Neider, Jean-Raphaël Gaglione, Ivan Gavran, Ufuk Topcu, Bo Wu, Zhe Xu. *AAAI 2021*.
+ - **Distributional Reinforcement Learning via Moment Matching.** [[pdf](https://doi.org/10.1609/aaai.v35i10.17104)]
+   - Thanh Nguyen-Tang, Sunil Gupta, Svetha Venkatesh. *AAAI 2021*.
+ - **Inverse Reinforcement Learning From Like-Minded Teachers.** [[pdf](https://doi.org/10.1609/aaai.v35i10.17110)]
+   - Ritesh Noothigattu, Tom Yan, Ariel D. Procaccia. *AAAI 2021*.
+ - **Robust Reinforcement Learning: A Case Study in Linear Quadratic Regulation.** [[pdf](https://doi.org/10.1609/aaai.v35i10.17122)]
+   - Bo Pang, Zhong-Ping Jiang. *AAAI 2021*.
+ - **Visual Transfer For Reinforcement Learning Via Wasserstein Domain Confusion.** [[pdf](https://doi.org/10.1609/aaai.v35i11.17139)]
+   - Josh Roy, George Dimitri Konidaris. *AAAI 2021*.
+ - **Inverse Reinforcement Learning with Explicit Policy Estimates.** [[pdf](https://doi.org/10.1609/aaai.v35i11.17141)]
+   - Navyata Sanghvi, Shinnosuke Usami, Mohit Sharma, Joachim Groeger, Kris Kitani. *AAAI 2021*.
+ - **Self-Supervised Attention-Aware Reinforcement Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i12.17235)]
+   - Haiping Wu, Khimya Khetarpal, Doina Precup. *AAAI 2021*.
+ - **Domain Adaptation In Reinforcement Learning Via Latent Unified State Representation.** [[pdf](https://doi.org/10.1609/aaai.v35i12.17251)]
+   - Jinwei Xing, Takashi Nagata, Kexin Chen, Xinyun Zou, Emre Neftci, Jeffrey L. Krichmar. *AAAI 2021*.
+ - **Non-asymptotic Convergence of Adam-type Reinforcement Learning Algorithms under Markovian Sampling.** [[pdf](https://doi.org/10.1609/aaai.v35i12.17252)]
+   - Huaqing Xiong, Tengyu Xu, Yingbin Liang, Wei Zhang. *AAAI 2021*.
+ - **WCSAC: Worst-Case Soft Actor Critic for Safety-Constrained Reinforcement Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i12.17272)]
+   - Qisong Yang, Thiago D. Simão, Simon H. Tindemans, Matthijs T. J. Spaan. *AAAI 2021*.
+ - **Improving Sample Efficiency in Model-Free Reinforcement Learning from Images.** [[pdf](https://doi.org/10.1609/aaai.v35i12.17276)]
+   - Denis Yarats, Amy Zhang, Ilya Kostrikov, Brandon Amos, Joelle Pineau, Rob Fergus. *AAAI 2021*.
+ - **Sequential Generative Exploration Model for Partially Observable Reinforcement Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i12.17279)]
+   - Haiyan Yin, Jianda Chen, Sinno Jialin Pan, Sebastian Tschiatschek. *AAAI 2021*.
+ - **Sample Efficient Reinforcement Learning with REINFORCE.** [[pdf](https://doi.org/10.1609/aaai.v35i12.17300)]
+   - Junzi Zhang, Jongho Kim, Brendan O'Donoghue, Stephen P. Boyd. *AAAI 2021*.
+ - **Mean-Variance Policy Iteration for Risk-Averse Reinforcement Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i12.17302)]
+   - Shangtong Zhang, Bo Liu, Shimon Whiteson. *AAAI 2021*.
+ - **Inverse Reinforcement Learning with Natural Language Goals.** [[pdf](https://doi.org/10.1609/aaai.v35i12.17326)]
+   - Li Zhou, Kevin Small. *AAAI 2021*.
+ - **Resilient Multi-Agent Reinforcement Learning with Adversarial Value Decomposition.** [[pdf](https://doi.org/10.1609/aaai.v35i13.17348)]
+   - Thomy Phan, Lenz Belzner, Thomas Gabor, Andreas Sedlmeier, Fabian Ritz, Claudia Linnhoff-Popien. *AAAI 2021*.
+ - **Coordination Between Individual Agents in Multi-Agent Reinforcement Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i13.17357)]
+   - Yang Zhang, Qingyu Yang, Dou An, Chengwei Zhang. *AAAI 2021*.
+ - **GLIB: Efficient Exploration for Relational Model-Based Reinforcement Learning via Goal-Literal Babbling.** [[pdf](https://doi.org/10.1609/aaai.v35i13.17400)]
+   - Rohan Chitnis, Tom Silver, Joshua B. Tenenbaum, Leslie Pack Kaelbling, Tomás Lozano-Pérez. *AAAI 2021*.
+ - **Synthesis of Search Heuristics for Temporal Planning via Reinforcement Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i13.17413)]
+   - Andrea Micheli, Alessandro Valentini. *AAAI 2021*.
+ - **Combining Reinforcement Learning with Lin-Kernighan-Helsgaun Algorithm for the Traveling Salesman Problem.** [[pdf](https://doi.org/10.1609/aaai.v35i14.17476)]
+   - Jiongzhi Zheng, Kun He, Jianrong Zhou, Yan Jin, Chu-Min Li. *AAAI 2021*.
+ - **Adaptive Prior-Dependent Correction Enhanced Reinforcement Learning for Natural Language Generation.** [[pdf](https://doi.org/10.1609/aaai.v35i14.17504)]
+   - Wei Cheng, Ziyan Luo, Qiyue Yin. *AAAI 2021*.
+ - **Reinforcement Learning-based Product Delivery Frequency Control.** [[pdf](https://doi.org/10.1609/aaai.v35i17.17803)]
+   - Yang Liu, Zhengxing Chen, Kittipat Virochsiri, Juan Wang, Jiahao Wu, Feng Liang. *AAAI 2021*.
+ - **Multi-agent Reinforcement Learning for Decentralized Coalition Formation Games.** [[pdf](https://doi.org/10.1609/aaai.v35i18.17866)]
+   - Kshitija Taywade. *AAAI 2021*.
+ - **Robotic Manipulation with Reinforcement Learning, State Representation Learning, and Imitation Learning (Student Abstract).** [[pdf](https://doi.org/10.1609/aaai.v35i18.17881)]
+   - Hanxiao Chen. *AAAI 2021*.
+ - **Evaluating Meta-Reinforcement Learning through a HVAC Control Benchmark (Student Abstract).** [[pdf](https://doi.org/10.1609/aaai.v35i18.17889)]
+   - Yashvir S. Grewal, Frits de Nijs, Sarah Goodwin. *AAAI 2021*.
+ - **Leveraging on Deep Reinforcement Learning for Autonomous Safe Decision-Making in Highway On-ramp Merging (Student Abstract).** [[pdf](https://doi.org/10.1609/aaai.v35i18.17904)]
+   - Zine El Abidine Kherroubi, Samir Aknine, Rebiha Bacha. *AAAI 2021*.
+ - **Deep Reinforcement Learning for a Dictionary Based Compression Schema (Student Abstract).** [[pdf](https://doi.org/10.1609/aaai.v35i18.17925)]
+   - Keren Nivasch, Dana Shapira, Amos Azaria. *AAAI 2021*.
+ - **Solving JumpIN' Using Zero-Dependency Reinforcement Learning (Student Abstract).** [[pdf](https://doi.org/10.1609/aaai.v35i18.17927)]
+   - Rachel Ostic, Oliver Benning, Patrick Boily. *AAAI 2021*.
+ - **Enhancing Context-Based Meta-Reinforcement Learning Algorithms via An Efficient Task Encoder (Student Abstract).** [[pdf](https://doi.org/10.1609/aaai.v35i18.17965)]
+   - Feng Xu, Shengyi Jiang, Hao Yin, Zongzhang Zhang, Yang Yu, Ming Li, Dong Li, Wulong Liu. *AAAI 2021*.
+ - **State-Wise Adaptive Discounting from Experience (SADE): A Novel Discounting Scheme for Reinforcement Learning (Student Abstract).** [[pdf](https://doi.org/10.1609/aaai.v35i18.17973)]
+   - Milan Zinzuvadiya, Vahid Behzadan. *AAAI 2021*.
+ - **Exploration of Unknown Environments Using Deep Reinforcement Learning.** [[pdf](https://doi.org/10.1609/aaai.v35i18.17981)]
+   - Joseph McCalmon. *AAAI 2021*.
+ - **EasyRL: A Simple and Extensible Reinforcement Learning Framework.** [[pdf](https://doi.org/10.1609/aaai.v35i18.18006)]
+   - Neil Hulbert, Sam Spillers, Brandon Francis, James Haines-Temons, Ken Gil Romero, Benjamin De Jager, Sam Wong, Kevin Flora, Bowei Huang, Athirai A. Irissappane. *AAAI 2021*.
+
+
+## International Conference on Autonomous Agents and Multiagent Systems
+
+ - **Minimum-Delay Adaptation in Non-Stationary Reinforcement Learning via Online High-Confidence Change-Point Detection.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p97.pdf)]
+   - Lucas Nunes Alegre, Ana L. C. Bazzan, Bruno C. da Silva. *AAMAS 2021*.
+ - **Cooperation and Reputation Dynamics with Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p115.pdf)]
+   - Nicolas Anastassacos, Julian García, Stephen Hailes, Mirco Musolesi. *AAMAS 2021*.
+ - **Temporal Watermarks for Deep Reinforcement Learning Models.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p314.pdf)]
+   - Kangjie Chen, Shangwei Guo, Tianwei Zhang, Shuxin Li, Yang Liu. *AAMAS 2021*.
+ - **Safe Multi-Agent Reinforcement Learning via Shielding.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p483.pdf)]
+   - Ingy Elsayed-Aly, Suda Bharadwaj, Christopher Amato, Rüdiger Ehlers, Ufuk Topcu, Lu Feng. *AAMAS 2021*.
+ - **Partially Observable Mean Field Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p537.pdf)]
+   - Sriram Ganapathi Subramanian, Matthew E. Taylor, Mark Crowley, Pascal Poupart. *AAMAS 2021*.
+ - **Action Selection for Composable Modular Deep Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p565.pdf)]
+   - Vaibhav Gupta, Daksh Anand, Praveen Paruchuri, Akshat Kumar. *AAMAS 2021*.
+ - **Multi-Agent Reinforcement Learning with Temporal Logic Specifications.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p583.pdf)]
+   - Lewis Hammond, Alessandro Abate, Julian Gutierrez, Michael J. Wooldridge. *AAMAS 2021*.
+ - **Cooperative-Competitive Reinforcement Learning with History-Dependent Rewards.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p602.pdf)]
+   - Keyang He, Bikramjit Banerjee, Prashant Doshi. *AAMAS 2021*.
+ - **Action Advising with Advice Imitation in Deep Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p629.pdf)]
+   - Ercument Ilhan, Jeremy Gow, Diego Perez Liebana. *AAMAS 2021*.
+ - **Grid-to-Graph: Flexible Spatial Relational Inductive Biases for Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p674.pdf)]
+   - Zhengyao Jiang, Pasquale Minervini, Minqi Jiang, Tim Rocktäschel. *AAMAS 2021*.
+ - **Deep Implicit Coordination Graphs for Multi-agent Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p764.pdf)]
+   - Sheng Li, Jayesh K. Gupta, Peter Morales, Ross E. Allen, Mykel J. Kochenderfer. *AAMAS 2021*.
+ - **Parallel Curriculum Experience Replay in Distributed Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p782.pdf)]
+   - Yuyu Li, Jianmin Ji. *AAMAS 2021*.
+ - **Deceptive Reinforcement Learning for Privacy-Preserving Planning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p818.pdf)]
+   - Zhengshang Liu, Yue Yang, Tim Miller, Peta Masters. *AAMAS 2021*.
+ - **Contrasting Centralized and Decentralized Critics in Multi-Agent Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p844.pdf)]
+   - Xueguang Lyu, Yuchen Xiao, Brett Daley, Christopher Amato. *AAMAS 2021*.
+ - **Modeling the Interaction between Agents in Cooperative Multi-Agent Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p853.pdf)]
+   - Xiaoteng Ma, Yiqin Yang, Chenghao Li, Yiwen Lu, Qianchuan Zhao, Jun Yang. *AAMAS 2021*.
+ - **To hold or not to hold? - Reducing Passenger Missed Connections in Airlines using Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p862.pdf)]
+   - Tejasvi Malladi, Karpagam Murugappan, Depak Sudarsanam, Ramasubramanian Suriyanarayanan, Arunchandar Vasan. *AAMAS 2021*.
+ - **Reward Machines for Cooperative Multi-Agent Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p934.pdf)]
+   - Cyrus Neary, Zhe Xu, Bo Wu, Ufuk Topcu. *AAMAS 2021*.
+ - **Active Screening for Recurrent Diseases: A Reinforcement Learning Approach.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p992.pdf)]
+   - Han-Ching Ou, Haipeng Chen, Shahin Jabbari, Milind Tambe. *AAMAS 2021*.
+ - **Cooperative and Competitive Biases for Multi-Agent Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1091.pdf)]
+   - Heechang Ryu, Hayong Shin, Jinkyoo Park. *AAMAS 2021*.
+ - **SEERL: Sample Efficient Ensemble Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1100.pdf)]
+   - Rohan Saphal, Balaraman Ravindran, Dheevatsa Mudigere, Sasikanth Avancha, Bharat Kaul. *AAMAS 2021*.
+ - **SPOTTER: Extending Symbolic Planning Operators through Targeted Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1118.pdf)]
+   - Vasanth Sarathy, Daniel Kasenberg, Shivam Goel, Jivko Sinapov, Matthias Scheutz. *AAMAS 2021*.
+ - **An Autonomous Negotiating Agent Framework with Reinforcement Learning based Strategies and Adaptive Strategy Switching Mechanism.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1163.pdf)]
+   - Ayan Sengupta, Yasser Mohammad, Shinji Nakadai. *AAMAS 2021*.
+ - **AlwaysSafe: Reinforcement Learning without Safety Constraint Violations during Training.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1226.pdf)]
+   - Thiago D. Simão, Nils Jansen, Matthijs T. J. Spaan. *AAMAS 2021*.
+ - **No More Hand-Tuning Rewards: Masked Constrained Policy Optimization for Safe Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1344.pdf)]
+   - Stef Van Havermaet, Yara Khaluf, Pieter Simoens. *AAMAS 2021*.
+ - **Reinforcement Learning for Unified Allocation and Patrolling in Signaling Games with Uncertainty.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1353.pdf)]
+   - Aravind Venugopal, Elizabeth Bondi, Harshavardhan Kamarthi, Keval Dholakia, Balaraman Ravindran, Milind Tambe. *AAMAS 2021*.
+ - **Transferable Environment Poisoning: Training-time Attack on Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1398.pdf)]
+   - Hang Xu, Rundong Wang, Lev Raizman, Zinovi Rabinovich. *AAMAS 2021*.
+ - **Learning to Cooperate with Unseen Agents Through Meta-Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1478.pdf)]
+   - Rujikorn Charakorn, Poramate Manoonpong, Nat Dilokthanakul. *AAMAS 2021*.
+ - **Stratified Experience Replay: Correcting Multiplicity Bias in Off-Policy Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1486.pdf)]
+   - Brett Daley, Cameron Hickert, Christopher Amato. *AAMAS 2021*.
+ - **Towards Decentralized Social Reinforcement Learning via Ego-Network Extrapolation.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1512.pdf)]
+   - Mahak Goindani, Jennifer Neville. *AAMAS 2021*.
+ - **Distributional Monte Carlo Tree Search for Risk-Aware and Multi-Objective Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1530.pdf)]
+   - Conor F. Hayes, Mathieu Reymond, Diederik M. Roijers, Enda Howley, Patrick Mannion. *AAMAS 2021*.
+ - **Solving 3D Bin Packing Problem via Multimodal Deep Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1548.pdf)]
+   - Yuan Jiang, Zhiguang Cao, Jie Zhang. *AAMAS 2021*.
+ - **SIBRE: Self Improvement Based REwards for Adaptive Feedback in Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1607.pdf)]
+   - Somjit Nath, Richa Verma, Abhik Ray, Harshad Khadilkar. *AAMAS 2021*.
+ - **Tunable Behaviours in Sequential Social Dilemmas using Multi-Objective Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1610.pdf)]
+   - David O'Callaghan, Patrick Mannion. *AAMAS 2021*.
+ - **Attention Actor-Critic Algorithm for Multi-Agent Constrained Co-operative Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1616.pdf)]
+   - P. Parnika, Raghuram Bharadwaj Diddigi, Sai Koti Reddy Danda, Shalabh Bhatnagar. *AAMAS 2021*.
+ - **Approximate Difference Rewards for Scalable Multigent Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1655.pdf)]
+   - Arambam James Singh, Akshat Kumar, Hoong Chuin Lau. *AAMAS 2021*.
+ - **A Distributional Perspective on Value Function Factorization Methods for Multi-Agent Reinforcement Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1671.pdf)]
+   - Wei-Fang Sun, Cheng-Kuang Lee, Chun-Yi Lee. *AAMAS 2021*.
+ - **Deep Interactive Bayesian Reinforcement Learning via Meta-Learning.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1712.pdf)]
+   - Luisa M. Zintgraf, Sam Devlin, Kamil Ciosek, Shimon Whiteson, Katja Hofmann. *AAMAS 2021*.
+ - **Facial Feedback for Reinforcement Learning: A Case Study and Offline Analysis Using the TAMER Framework.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1735.pdf)]
+   - Guangliang Li, Hamdi Dibeklioglu, Shimon Whiteson, Hayley Hung. *AAMAS 2021*.
+ - **Symbolic Reinforcement Learning for Safe RAN Control.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1782.pdf)]
+   - Alexandros Nikou, Anusha Mujumdar, Marin Orlic, Aneta Vulgarakis Feljan. *AAMAS 2021*.
+ - **Reward-Sharing Relational Networks in Multi-Agent Reinforcement Learning as a Framework for Emergent Behavior.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1808.pdf)]
+   - Hossein Haeri. *AAMAS 2021*.
+ - **Improving Sample-based Reinforcement Learning through Complex Non-parametric Distributions.** [[pdf](https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1837.pdf)]
+   - Shi Yuan Tang. *AAMAS 2021*.
+
+## International Conference on Learning Representations
+
+ - **Parrot: Data-Driven Behavioral Priors for Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=Ysuv-WOFeKR)]
+   - Avi Singh, Huihan Liu, Gaoyue Zhou, Albert Yu, Nicholas Rhinehart, Sergey Levine. *ICLR 2021*.
+ - **Learning Invariant Representations for Reinforcement Learning without Reconstruction.** [[pdf](https://openreview.net/forum?id=-2FCwDKRREu)]
+   - Amy Zhang, Rowan Thomas McAllister, Roberto Calandra, Yarin Gal, Sergey Levine. *ICLR 2021*.
+ - **SMiRL: Surprise Minimizing Reinforcement Learning in Unstable Environments.** [[pdf](https://openreview.net/forum?id=cPZOyoDloxl)]
+   - Glen Berseth, Daniel Geng, Coline Manon Devin, Nicholas Rhinehart, Chelsea Finn, Dinesh Jayaraman, Sergey Levine. *ICLR 2021*.
+ - **Evolving Reinforcement Learning Algorithms.** [[pdf](https://openreview.net/forum?id=0XXpJ4OtjW)]
+   - John D. Co-Reyes, Yingjie Miao, Daiyi Peng, Esteban Real, Quoc V. Le, Sergey Levine, Honglak Lee, Aleksandra Faust. *ICLR 2021*.
+ - **Contrastive Explanations for Reinforcement Learning via Embedded Self Predictions.** [[pdf](https://openreview.net/forum?id=Ud3DSz72nYR)]
+   - Zhengxian Lin, Kin-Ho Lam, Alan Fern. *ICLR 2021*.
+ - **Contrastive Behavioral Similarity Embeddings for Generalization in Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=qda7-sVg84)]
+   - Rishabh Agarwal, Marlos C. Machado, Pablo Samuel Castro, Marc G. Bellemare. *ICLR 2021*.
+ - **Data-Efficient Reinforcement Learning with Self-Predictive Representations.** [[pdf](https://openreview.net/forum?id=uCQfPZwRaUu)]
+   - Max Schwarzer, Ankesh Anand, Rishab Goel, R. Devon Hjelm, Aaron C. Courville, Philip Bachman. *ICLR 2021*.
+ - **Regularized Inverse Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=HgLO8yalfwc)]
+   - Wonseok Jeon, Chen-Yang Su, Paul Barde, Thang Doan, Derek Nowrouzezahrai, Joelle Pineau. *ICLR 2021*.
+ - **DeepAveragers: Offline Reinforcement Learning By Solving Derived Non-Parametric MDPs.** [[pdf](https://openreview.net/forum?id=eMP1j9efXtX)]
+   - Aayam Kumar Shrestha, Stefan Lee, Prasad Tadepalli, Alan Fern. *ICLR 2021*.
+ - **Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels.** [[pdf](https://openreview.net/forum?id=GY6-6sTvGaf)]
+   - Denis Yarats, Ilya Kostrikov, Rob Fergus. *ICLR 2021*.
+ - **Self-supervised Visual Reinforcement Learning with Object-centric Representations.** [[pdf](https://openreview.net/forum?id=xppLmXCbOw1)]
+   - Andrii Zadaianchuk, Maximilian Seitzer, Georg Martius. *ICLR 2021*.
+ - **Optimism in Reinforcement Learning with Generalized Linear Function Approximation.** [[pdf](https://openreview.net/forum?id=CBmJwzneppz)]
+   - Yining Wang, Ruosong Wang, Simon Shaolei Du, Akshay Krishnamurthy. *ICLR 2021*.
+ - **Control-Aware Representations for Model-based Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=dgd4EJqsbW5)]
+   - Brandon Cui, Yinlam Chow, Mohammad Ghavamzadeh. *ICLR 2021*.
+ - **Robust Reinforcement Learning on State Observations with Learned Optimal Adversary.** [[pdf](https://openreview.net/forum?id=sCZbhBvqQaU)]
+   - Huan Zhang, Hongge Chen, Duane S. Boning, Cho-Jui Hsieh. *ICLR 2021*.
+ - **Optimizing Memory Placement using Evolutionary Graph Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=-6vS_4Kfz0)]
+   - Shauharda Khadka, Estelle Aflalo, Mattias Marder, Avrech Ben-David, Santiago Miret, Shie Mannor, Tamir Hazan, Hanlin Tang, Somdeb Majumdar. *ICLR 2021*.
+ - **Representation Balancing Offline Model-based Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=QpNz8r_Ri2Y)]
+   - Byung-Jun Lee, Jongmin Lee, Kee-Eung Kim. *ICLR 2021*.
+ - **Ask Your Humans: Using Human Instructions to Improve Generalization in Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=Y87Ri-GNHYu)]
+   - Valerie Chen, Abhinav Gupta, Kenneth Marino. *ICLR 2021*.
+ - **Efficient Transformers in Reinforcement Learning using Actor-Learner Distillation.** [[pdf](https://openreview.net/forum?id=uR9LaO_QxF)]
+   - Emilio Parisotto, Ruslan Salakhutdinov. *ICLR 2021*.
+ - **Efficient Reinforcement Learning in Factored MDPs with Application to Constrained RL.** [[pdf](https://openreview.net/forum?id=fmtSg8591Q)]
+   - Xiaoyu Chen, Jiachen Hu, Lihong Li, Liwei Wang. *ICLR 2021*.
+ - **Hierarchical Reinforcement Learning by Discovering Intrinsic Options.** [[pdf](https://openreview.net/forum?id=r-gPPHEjpmw)]
+   - Jesse Zhang, Haonan Yu, Wei Xu. *ICLR 2021*.
+ - **Off-Dynamics Reinforcement Learning: Training for Transfer with Domain Classifiers.** [[pdf](https://openreview.net/forum?id=eqBwg3AcIAK)]
+   - Benjamin Eysenbach, Shreyas Chaudhari, Swapnil Asawa, Sergey Levine, Ruslan Salakhutdinov. *ICLR 2021*.
+ - **Blending MPC & Value Function Approximation for Efficient Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=RqCC_00Bg7V)]
+   - Mohak Bhardwaj, Sanjiban Choudhury, Byron Boots. *ICLR 2021*.
+ - **Efficient Wasserstein Natural Gradients for Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=OHgnfSrn2jv)]
+   - Ted Moskovitz, Michael Arbel, Ferenc Huszar, Arthur Gretton. *ICLR 2021*.
+ - **Differentiable Trust Region Layers for Deep Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=qYZD-AO1Vn)]
+   - Fabian Otto, Philipp Becker, Ngo Anh Vien, Hanna Carolin Maria Ziesche, Gerhard Neumann. *ICLR 2021*.
+ - **Genetic Soft Updates for Policy Evolution in Deep Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=TGFO0DbD_pk)]
+   - Enrico Marchesini, Davide Corsi, Alessandro Farinelli. *ICLR 2021*.
+ - **Reinforcement Learning with Random Delays.** [[pdf](https://openreview.net/forum?id=QFYnKlBJYR)]
+   - Yann Bouteiller, Simon Ramstedt, Giovanni Beltrame, Christopher J. Pal, Jonathan Binas. *ICLR 2021*.
+ - **Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization.** [[pdf](https://openreview.net/forum?id=3hGNqpI4WS)]
+   - Tatsuya Matsushima, Hiroki Furuta, Yutaka Matsuo, Ofir Nachum, Shixiang Gu. *ICLR 2021*.
+ - **Risk-Averse Offline Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=TBIzh9b5eaz)]
+   - Núria Armengol Urpí, Sebastian Curi, Andreas Krause. *ICLR 2021*.
+ - **Provable Rich Observation Reinforcement Learning with Combinatorial Latent States.** [[pdf](https://openreview.net/forum?id=hx1IXFHAw7R)]
+   - Dipendra Misra, Qinghua Liu, Chi Jin, John Langford. *ICLR 2021*.
+ - **Return-Based Contrastive Representation Learning for Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=_TM6rT7tXke)]
+   - Guoqing Liu, Chuheng Zhang, Li Zhao, Tao Qin, Jinhua Zhu, Jian Li, Nenghai Yu, Tie-Yan Liu. *ICLR 2021*.
+ - **Scalable Bayesian Inverse Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=4qR3coiNaIv)]
+   - Alex James Chan, Mihaela van der Schaar. *ICLR 2021*.
+ - **Transient Non-stationarity and Generalisation in Deep Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=Qun8fv4qSby)]
+   - Maximilian Igl, Gregory Farquhar, Jelena Luketina, Wendelin Boehmer, Shimon Whiteson. *ICLR 2021*.
+ - **Sample-Efficient Automated Deep Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=hSjxQ3B7GWq)]
+   - Jörg K. H. Franke, Gregor Köhler, André Biedenkapp, Frank Hutter. *ICLR 2021*.
+ - **OPAL: Offline Primitive Discovery for Accelerating Offline Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=V69LGwJ0lIN)]
+   - Anurag Ajay, Aviral Kumar, Pulkit Agrawal, Sergey Levine, Ofir Nachum. *ICLR 2021*.
+ - **Batch Reinforcement Learning Through Continuation Method.** [[pdf](https://openreview.net/forum?id=po-DLlBuAuz)]
+   - Yijie Guo, Shengyu Feng, Nicolas Le Roux, Ed H. Chi, Honglak Lee, Minmin Chen. *ICLR 2021*.
+ - **Implicit Under-Parameterization Inhibits Data-Efficient Deep Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=O9bnihsFfXU)]
+   - Aviral Kumar, Rishabh Agarwal, Dibya Ghosh, Sergey Levine. *ICLR 2021*.
+ - **Large Batch Simulation for Deep Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=cP5IcoAkfKa)]
+   - Brennan Shacklett, Erik Wijmans, Aleksei Petrenko, Manolis Savva, Dhruv Batra, Vladlen Koltun, Kayvon Fatahalian. *ICLR 2021*.
+ - **Adapting to Reward Progressivity via Spectral Reinforcement Learning.** [[pdf](https://openreview.net/forum?id=dyjPVUc2KB)]
+   - Michael Dann, John Thangarajah. *ICLR 2021*.
+ - **FOCAL: Efficient Fully-Offline Meta-Reinforcement Learning via Distance Metric Learning and Behavior Regularization.** [[pdf](https://openreview.net/forum?id=8cpHIfgY4Dj)]
+   - Lanqing Li, Rui Yang, Dijun Luo. *ICLR 2021*.
+ - **Communication in Multi-Agent Reinforcement Learning: Intention Sharing.** [[pdf](https://openreview.net/forum?id=qpsl2dR9twy)]
+   - Woojun Kim, Jongeui Park, Youngchul Sung. *ICLR 2021*.
+ - **Solving Compositional Reinforcement Learning Problems via Task Reduction.** [[pdf](https://openreview.net/forum?id=9SS69KwomAM)]
+   - Yunfei Li, Yilin Wu, Huazhe Xu, Xiaolong Wang, Yi Wu. *ICLR 2021*.
+
+## International Conference on Machine Learning
+
+ - **Safe Reinforcement Learning with Linear Function Approximation.** [[pdf](http://proceedings.mlr.press/v139/amani21a.html)]
+   - Sanae Amani, Christos Thrampoulidis, Lin Yang. *ICML 2021*.
+ - **Robust Reinforcement Learning using Least Squares Policy Iteration with Provable Performance Guarantees.** [[pdf](http://proceedings.mlr.press/v139/badrinath21a.html)]
+   - Kishan Panaganti Badrinath, Dileep Kalathil. *ICML 2021*.
+ - **Low-Precision Reinforcement Learning: Running Soft Actor-Critic in Half Precision.** [[pdf](http://proceedings.mlr.press/v139/bjorck21a.html)]
+   - Johan Björck, Xiangyu Chen, Christopher De Sa, Carla P. Gomes, Kilian Q. Weinberger. *ICML 2021*.
+ - **Reinforcement Learning of Implicit and Explicit Control Flow Instructions.** [[pdf](http://proceedings.mlr.press/v139/brooks21a.html)]
+   - Ethan A. Brooks, Janarthanan Rajendran, Richard L. Lewis, Satinder Singh. *ICML 2021*.
+ - **Learning Routines for Effective Off-Policy Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/cetin21a.html)]
+   - Edoardo Cetin, Oya Çeliktutan. *ICML 2021*.
+ - **Goal-Conditioned Reinforcement Learning with Imagined Subgoals.** [[pdf](http://proceedings.mlr.press/v139/chane-sane21a.html)]
+   - Elliot Chane-Sane, Cordelia Schmid, Ivan Laptev. *ICML 2021*.
+ - **Modularity in Reinforcement Learning via Algorithmic Independence in Credit Assignment.** [[pdf](http://proceedings.mlr.press/v139/chang21b.html)]
+   - Michael Chang, Sidhant Kaushik, Sergey Levine, Tom Griffiths. *ICML 2021*.
+ - **Solving Challenging Dexterous Manipulation Tasks With Trajectory Optimisation and Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/charlesworth21a.html)]
+   - Henry Charlesworth, Giovanni Montana. *ICML 2021*.
+ - **Actionable Models: Unsupervised Offline Reinforcement Learning of Robotic Skills.** [[pdf](http://proceedings.mlr.press/v139/chebotar21a.html)]
+   - Yevgen Chebotar, Karol Hausman, Yao Lu, Ted Xiao, Dmitry Kalashnikov, Jacob Varley, Alex Irpan, Benjamin Eysenbach, Ryan Julian, Chelsea Finn, Sergey Levine. *ICML 2021*.
+ - **Improved Corruption Robust Algorithms for Episodic Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/chen21d.html)]
+   - Yifang Chen, Simon S. Du, Kevin Jamieson. *ICML 2021*.
+ - **Variational Empowerment as Representation Learning for Goal-Conditioned Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/choi21b.html)]
+   - Jongwook Choi, Archit Sharma, Honglak Lee, Sergey Levine, Shixiang Shane Gu. *ICML 2021*.
+ - **Scaling Multi-Agent Reinforcement Learning with Selective Parameter Sharing.** [[pdf](http://proceedings.mlr.press/v139/christianos21a.html)]
+   - Filippos Christianos, Georgios Papoudakis, Arrasy Rahman, Stefano V. Albrecht. *ICML 2021*.
+ - **Combining Pessimism with Optimism for Robust and Efficient Model-Based Deep Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/curi21a.html)]
+   - Sebastian Curi, Ilija Bogunovic, Andreas Krause. *ICML 2021*.
+ - **Offline Reinforcement Learning with Pseudometric Learning.** [[pdf](http://proceedings.mlr.press/v139/dadashi21a.html)]
+   - Robert Dadashi, Shideh Rezaeifar, Nino Vieillard, Léonard Hussenot, Olivier Pietquin, Matthieu Geist. *ICML 2021*.
+ - **Demonstration-Conditioned Reinforcement Learning for Few-Shot Imitation.** [[pdf](http://proceedings.mlr.press/v139/dance21a.html)]
+   - Christopher R. Dance, Julien Perez, Théo Cachet. *ICML 2021*.
+ - **SAINT-ACC: Safety-Aware Intelligent Adaptive Cruise Control for Autonomous Vehicles Using Deep Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/das21a.html)]
+   - Lokesh Chandra Das, Myounggyu Won. *ICML 2021*.
+ - **Kernel-Based Reinforcement Learning: A Finite-Time Analysis.** [[pdf](http://proceedings.mlr.press/v139/domingues21a.html)]
+   - Omar Darwiche Domingues, Pierre Ménard, Matteo Pirotta, Emilie Kaufmann, Michal Valko. *ICML 2021*.
+ - **Risk Bounds and Rademacher Complexity in Batch Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/duan21a.html)]
+   - Yaqi Duan, Chi Jin, Zhiyuan Li. *ICML 2021*.
+ - **Reinforcement Learning Under Moral Uncertainty.** [[pdf](http://proceedings.mlr.press/v139/ecoffet21a.html)]
+   - Adrien Ecoffet, Joel Lehman. *ICML 2021*.
+ - **Self-Paced Context Evaluation for Contextual Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/eimer21a.html)]
+   - Theresa Eimer, André Biedenkapp, Frank Hutter, Marius Lindauer. *ICML 2021*.
+ - **Model-based Reinforcement Learning for Continuous Control with Posterior Sampling.** [[pdf](http://proceedings.mlr.press/v139/fan21b.html)]
+   - Ying Fan, Yifei Ming. *ICML 2021*.
+ - **Risk-Sensitive Reinforcement Learning with Function Approximation: A Debiasing Approach.** [[pdf](http://proceedings.mlr.press/v139/fei21a.html)]
+   - Yingjie Fei, Zhuoran Yang, Zhaoran Wang. *ICML 2021*.
+ - **PsiPhi-Learning: Reinforcement Learning with Demonstrations using Successor Features and Inverse Temporal Difference Learning.** [[pdf](http://proceedings.mlr.press/v139/filos21a.html)]
+   - Angelos Filos, Clare Lyle, Yarin Gal, Sergey Levine, Natasha Jaques, Gregory Farquhar. *ICML 2021*.
+ - **A Deep Reinforcement Learning Approach to Marginalized Importance Sampling with the Successor Representation.** [[pdf](http://proceedings.mlr.press/v139/fujimoto21a.html)]
+   - Scott Fujimoto, David Meger, Doina Precup. *ICML 2021*.
+ - **Policy Information Capacity: Information-Theoretic Measure for Task Complexity in Deep Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/furuta21a.html)]
+   - Hiroki Furuta, Tatsuya Matsushima, Tadashi Kozuno, Yutaka Matsuo, Sergey Levine, Ofir Nachum, Shixiang Shane Gu. *ICML 2021*.
+ - **Spectral Normalisation for Deep Reinforcement Learning: An Optimisation Perspective.** [[pdf](http://proceedings.mlr.press/v139/gogianu21a.html)]
+   - Florin Gogianu, Tudor Berariu, Mihaela Rosca, Claudia Clopath, Lucian Busoniu, Razvan Pascanu. *ICML 2021*.
+ - **Detecting Rewards Deterioration in Episodic Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/greenberg21a.html)]
+   - Ido Greenberg, Shie Mannor. *ICML 2021*.
+ - **UneVEn: Universal Value Exploration for Multi-Agent Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/gupta21a.html)]
+   - Tarun Gupta, Anuj Mahajan, Bei Peng, Wendelin Boehmer, Shimon Whiteson. *ICML 2021*.
+ - **Grounding Language to Entities and Dynamics for Generalization in Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/hanjie21a.html)]
+   - Austin W. Hanjie, Victor Zhong, Karthik Narasimhan. *ICML 2021*.
+ - **Sparse Feature Selection Makes Batch Reinforcement Learning More Sample Efficient.** [[pdf](http://proceedings.mlr.press/v139/hao21a.html)]
+   - Botao Hao, Yaqi Duan, Tor Lattimore, Csaba Szepesvári, Mengdi Wang. *ICML 2021*.
+ - **Logarithmic Regret for Reinforcement Learning with Linear Function Approximation.** [[pdf](http://proceedings.mlr.press/v139/he21c.html)]
+   - Jiafan He, Dongruo Zhou, Quanquan Gu. *ICML 2021*.
+ - **Generalizable Episodic Memory for Deep Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/hu21d.html)]
+   - Hao Hu, Jianing Ye, Guangxiang Zhu, Zhizhou Ren, Chongjie Zhang. *ICML 2021*.
+ - **Randomized Entity-wise Factorization for Multi-Agent Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/iqbal21a.html)]
+   - Shariq Iqbal, Christian A. Schröder de Witt, Bei Peng, Wendelin Boehmer, Shimon Whiteson, Fei Sha. *ICML 2021*.
+ - **Randomized Exploration in Reinforcement Learning with General Value Function Approximation.** [[pdf](http://proceedings.mlr.press/v139/ishfaq21a.html)]
+   - Haque Ishfaq, Qiwen Cui, Viet Nguyen, Alex Ayoub, Zhuoran Yang, Zhaoran Wang, Doina Precup, Lin Yang. *ICML 2021*.
+ - **Emphatic Algorithms for Deep Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/jiang21j.html)]
+   - Ray Jiang, Tom Zahavy, Zhongwen Xu, Adam White, Matteo Hessel, Charles Blundell, Hado van Hasselt. *ICML 2021*.
+ - **Efficient Performance Bounds for Primal-Dual Reinforcement Learning from Demonstrations.** [[pdf](http://proceedings.mlr.press/v139/kamoutsi21a.html)]
+   - Angeliki Kamoutsi, Goran Banjac, John Lygeros. *ICML 2021*.
+ - **Reward Identification in Inverse Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/kim21c.html)]
+   - Kuno Kim, Shivam Garg, Kirankumar Shiragur, Stefano Ermon. *ICML 2021*.
+ - **A Policy Gradient Algorithm for Learning to Learn in Multiagent Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/kim21g.html)]
+   - Dong-Ki Kim, Miao Liu, Matthew Riemer, Chuangchuang Sun, Marwa Abdulhai, Golnaz Habibi, Sebastian Lopez-Cot, Gerald Tesauro, Jonathan P. How. *ICML 2021*.
+ - **A Lower Bound for the Sample Complexity of Inverse Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/komanduru21a.html)]
+   - Abi Komanduru, Jean Honorio. *ICML 2021*.
+ - **High Confidence Generalization for Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/kostas21a.html)]
+   - James E. Kostas, Yash Chandak, Scott M. Jordan, Georgios Theocharous, Philip S. Thomas. *ICML 2021*.
+ - **Offline Reinforcement Learning with Fisher Divergence Critic Regularization.** [[pdf](http://proceedings.mlr.press/v139/kostrikov21a.html)]
+   - Ilya Kostrikov, Rob Fergus, Jonathan Tompson, Ofir Nachum. *ICML 2021*.
+ - **Revisiting Peng's Q(λ) for Modern Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/kozuno21a.html)]
+   - Tadashi Kozuno, Yunhao Tang, Mark Rowland, Rémi Munos, Steven Kapturowski, Will Dabney, Michal Valko, David Abel. *ICML 2021*.
+ - **SUNRISE: A Simple Unified Framework for Ensemble Learning in Deep Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/lee21g.html)]
+   - Kimin Lee, Michael Laskin, Aravind Srinivas, Pieter Abbeel. *ICML 2021*.
+ - **PEBBLE: Feedback-Efficient Interactive Reinforcement Learning via Relabeling Experience and Unsupervised Pre-training.** [[pdf](http://proceedings.mlr.press/v139/lee21i.html)]
+   - Kimin Lee, Laura M. Smith, Pieter Abbeel. *ICML 2021*.
+ - **Scalable Evaluation of Multi-Agent Reinforcement Learning with Melting Pot.** [[pdf](http://proceedings.mlr.press/v139/leibo21a.html)]
+   - Joel Z. Leibo, Edgar A. Duéñez-Guzmán, Alexander Vezhnevets, John P. Agapiou, Peter Sunehag, Raphael Koster, Jayd Matyas, Charlie Beattie, Igor Mordatch, Thore Graepel. *ICML 2021*.
+ - **MURAL: Meta-Learning Uncertainty-Aware Rewards for Outcome-Driven Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/li21g.html)]
+   - Kevin Li, Abhishek Gupta, Ashwin Reddy, Vitchyr H. Pong, Aurick Zhou, Justin Yu, Sergey Levine. *ICML 2021*.
+ - **Parallel Droplet Control in MEDA Biochips using Multi-Agent Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/liang21c.html)]
+   - Tung-Che Liang, Jin Zhou, Yun-Sheng Chan, Tsung-Yi Ho, Krishnendu Chakrabarty, Cy Lee. *ICML 2021*.
+ - **Cooperative Exploration for Multi-Agent Deep Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/liu21j.html)]
+   - Iou-Jen Liu, Unnat Jain, Raymond A. Yeh, Alexander G. Schwing. *ICML 2021*.
+ - **Coach-Player Multi-agent Reinforcement Learning for Dynamic Team Composition.** [[pdf](http://proceedings.mlr.press/v139/liu21m.html)]
+   - Bo Liu, Qiang Liu, Peter Stone, Animesh Garg, Yuke Zhu, Anima Anandkumar. *ICML 2021*.
+ - **Decoupling Exploration and Exploitation for Meta-Reinforcement Learning without Sacrifices.** [[pdf](http://proceedings.mlr.press/v139/liu21s.html)]
+   - Evan Zheran Liu, Aditi Raghunathan, Percy Liang, Chelsea Finn. *ICML 2021*.
+ - **A Sharp Analysis of Model-based Reinforcement Learning with Self-Play.** [[pdf](http://proceedings.mlr.press/v139/liu21z.html)]
+   - Qinghua Liu, Tiancheng Yu, Yu Bai, Chi Jin. *ICML 2021*.
+ - **Tesseract: Tensorised Actors for Multi-Agent Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/mahajan21a.html)]
+   - Anuj Mahajan, Mikayel Samvelyan, Lei Mao, Viktor Makoviychuk, Animesh Garg, Jean Kossaifi, Shimon Whiteson, Yuke Zhu, Animashree Anandkumar. *ICML 2021*.
+ - **Inverse Constrained Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/malik21a.html)]
+   - Shehryar Malik, Usman Anwar, Alireza Aghasi, Ali Ahmed. *ICML 2021*.
+ - **Sample Efficient Reinforcement Learning In Continuous State Spaces: A Perspective Beyond Linearity.** [[pdf](http://proceedings.mlr.press/v139/malik21c.html)]
+   - Dhruv Malik, Aldo Pacchiano, Vishwak Srinivasan, Yuanzhi Li. *ICML 2021*.
+ - **Near-Optimal Model-Free Reinforcement Learning in Non-Stationary Episodic MDPs.** [[pdf](http://proceedings.mlr.press/v139/mao21b.html)]
+   - Weichao Mao, Kaiqing Zhang, Ruihao Zhu, David Simchi-Levi, Tamer Basar. *ICML 2021*.
+ - **Controlling Graph Dynamics with Reinforcement Learning and Graph Neural Networks.** [[pdf](http://proceedings.mlr.press/v139/meirom21a.html)]
+   - Eli A. Meirom, Haggai Maron, Shie Mannor, Gal Chechik. *ICML 2021*.
+ - **Counterfactual Credit Assignment in Model-Free Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/mesnard21a.html)]
+   - Thomas Mesnard, Theophane Weber, Fabio Viola, Shantanu Thakoor, Alaa Saade, Anna Harutyunyan, Will Dabney, Thomas S. Stepleton, Nicolas Heess, Arthur Guez, Eric Moulines, Marcus Hutter, Lars Buesing, Rémi Munos. *ICML 2021*.
+ - **Offline Meta-Reinforcement Learning with Advantage Weighting.** [[pdf](http://proceedings.mlr.press/v139/mitchell21a.html)]
+   - Eric Mitchell, Rafael Rafailov, Xue Bin Peng, Sergey Levine, Chelsea Finn. *ICML 2021*.
+ - **Emergent Social Learning via Multi-agent Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/ndousse21a.html)]
+   - Kamal Ndousse, Douglas Eck, Sergey Levine, Natasha Jaques. *ICML 2021*.
+ - **Density Constrained Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/qin21a.html)]
+   - Zengyi Qin, Yuxiao Chen, Chuchu Fan. *ICML 2021*.
+ - **Decoupling Value and Policy for Generalization in Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/raileanu21a.html)]
+   - Roberta Raileanu, Rob Fergus. *ICML 2021*.
+ - **Model-Based Reinforcement Learning via Latent-Space Collocation.** [[pdf](http://proceedings.mlr.press/v139/rybkin21b.html)]
+   - Oleh Rybkin, Chuning Zhu, Anusha Nagabandi, Kostas Daniilidis, Igor Mordatch, Sergey Levine. *ICML 2021*.
+ - **Recomposing the Reinforcement Learning Building Blocks with Hypernetworks.** [[pdf](http://proceedings.mlr.press/v139/sarafian21a.html)]
+   - Elad Sarafian, Shai Keynan, Sarit Kraus. *ICML 2021*.
+ - **RRL: Resnet as representation for Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/shah21a.html)]
+   - Rutav M. Shah, Vikash Kumar. *ICML 2021*.
+ - **Structured World Belief for Reinforcement Learning in POMDP.** [[pdf](http://proceedings.mlr.press/v139/singh21a.html)]
+   - Gautam Singh, Skand Vishwanath Peri, Junghyun Kim, Hyunseok Kim, Sungjin Ahn. *ICML 2021*.
+ - **Multi-Task Reinforcement Learning with Context-based Representations.** [[pdf](http://proceedings.mlr.press/v139/sodhani21a.html)]
+   - Shagun Sodhani, Amy Zhang, Joelle Pineau. *ICML 2021*.
+ - **Shortest-Path Constrained Reinforcement Learning for Sparse Reward Tasks.** [[pdf](http://proceedings.mlr.press/v139/sohn21a.html)]
+   - Sungryull Sohn, Sungtae Lee, Jongwook Choi, Harm van Seijen, Mehdi Fatemi, Honglak Lee. *ICML 2021*.
+ - **PC-MLP: Model-based Reinforcement Learning with Policy Cover Guided Exploration.** [[pdf](http://proceedings.mlr.press/v139/song21b.html)]
+   - Yuda Song, Wen Sun. *ICML 2021*.
+ - **Decoupling Representation Learning from Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/stooke21a.html)]
+   - Adam Stooke, Kimin Lee, Pieter Abbeel, Michael Laskin. *ICML 2021*.
+ - **Reinforcement Learning for Cost-Aware Markov Decision Processes.** [[pdf](http://proceedings.mlr.press/v139/suttle21a.html)]
+   - Wesley Suttle, Kaiqing Zhang, Zhuoran Yang, Ji Liu, David N. Kraemer. *ICML 2021*.
+ - **REPAINT: Knowledge Transfer in Deep Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/tao21a.html)]
+   - Yunzhe Tao, Sahika Genc, Jonathan Chung, Tao Sun, Sunil Mallya. *ICML 2021*.
+ - **Safe Reinforcement Learning Using Advantage-Based Intervention.** [[pdf](http://proceedings.mlr.press/v139/wagener21a.html)]
+   - Nolan Wagener, Byron Boots, Ching-An Cheng. *ICML 2021*.
+ - **Towards Better Laplacian Representation in Reinforcement Learning with Generalized Graph Drawing.** [[pdf](http://proceedings.mlr.press/v139/wang21ae.html)]
+   - Kaixin Wang, Kuangqi Zhou, Qixin Zhang, Jie Shao, Bryan Hooi, Jiashi Feng. *ICML 2021*.
+ - **On Reinforcement Learning with Adversarial Corruption and Its Application to Block MDP.** [[pdf](http://proceedings.mlr.press/v139/wu21g.html)]
+   - Tianhao Wu, Yunchang Yang, Simon S. Du, Liwei Wang. *ICML 2021*.
+ - **Uncertainty Weighted Actor-Critic for Offline Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/wu21i.html)]
+   - Yue Wu, Shuangfei Zhai, Nitish Srivastava, Joshua M. Susskind, Jian Zhang, Ruslan Salakhutdinov, Hanlin Goh. *ICML 2021*.
+ - **Deep Reinforcement Learning amidst Continual Structured Non-Stationarity.** [[pdf](http://proceedings.mlr.press/v139/xie21c.html)]
+   - Annie Xie, James Harrison, Chelsea Finn. *ICML 2021*.
+ - **CRPO: A New Approach for Safe Reinforcement Learning with Convergence Guarantee.** [[pdf](http://proceedings.mlr.press/v139/xu21a.html)]
+   - Tengyu Xu, Yingbin Liang, Guanghui Lan. *ICML 2021*.
+ - **Accelerating Safe Reinforcement Learning with Constraint-mismatched Baseline Policies.** [[pdf](http://proceedings.mlr.press/v139/yang21i.html)]
+   - Tsung-Yen Yang, Justinian Rosca, Karthik Narasimhan, Peter J. Ramadge. *ICML 2021*.
+ - **Reinforcement Learning with Prototypical Representations.** [[pdf](http://proceedings.mlr.press/v139/yarats21a.html)]
+   - Denis Yarats, Rob Fergus, Alessandro Lazaric, Lerrel Pinto. *ICML 2021*.
+ - **Continuous-time Model-based Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/yildiz21a.html)]
+   - Çagatay Yildiz, Markus Heinonen, Harri Lähdesmäki. *ICML 2021*.
+ - **Exponential Lower Bounds for Batch Reinforcement Learning: Batch RL can be Exponentially Harder than Online RL.** [[pdf](http://proceedings.mlr.press/v139/zanette21a.html)]
+   - Andrea Zanette. *ICML 2021*.
+ - **DouZero: Mastering DouDizhu with Self-Play Deep Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/zha21a.html)]
+   - Daochen Zha, Jingru Xie, Wenye Ma, Sheng Zhang, Xiangru Lian, Xia Hu, Ji Liu. *ICML 2021*.
+ - **Near Optimal Reward-Free Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/zhang21e.html)]
+   - Zihan Zhang, Simon S. Du, Xiangyang Ji. *ICML 2021*.
+ - **FOP: Factorizing Optimal Joint Policy of Maximum-Entropy Multi-Agent Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/zhang21m.html)]
+   - Tianhao Zhang, Yueheng Li, Chen Wang, Guangming Xie, Zongqing Lu. *ICML 2021*.
+ - **On-Policy Deep Reinforcement Learning for the Average-Reward Criterion.** [[pdf](http://proceedings.mlr.press/v139/zhang21q.html)]
+   - Yiming Zhang, Keith W. Ross. *ICML 2021*.
+ - **MetaCURE: Meta Reinforcement Learning with Empowerment-Driven Exploration.** [[pdf](http://proceedings.mlr.press/v139/zhang21w.html)]
+   - Jin Zhang, Jianhao Wang, Hao Hu, Tong Chen, Yingfeng Chen, Changjie Fan, Chongjie Zhang. *ICML 2021*.
+ - **Model-Free Reinforcement Learning: from Clipped Pseudo-Regret to Sample Complexity.** [[pdf](http://proceedings.mlr.press/v139/zhang21ab.html)]
+   - Zihan Zhang, Yuan Zhou, Xiangyang Ji. *ICML 2021*.
+ - **Provably Efficient Reinforcement Learning for Discounted MDPs with Feature Mapping.** [[pdf](http://proceedings.mlr.press/v139/zhou21a.html)]
+   - Dongruo Zhou, Jiafan He, Quanquan Gu. *ICML 2021*.
+ - **Learning Fair Policies in Decentralized Cooperative Multi-Agent Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/zimmer21a.html)]
+   - Matthieu Zimmer, Claire Glanois, Umer Siddique, Paul Weng. *ICML 2021*.
+ - **Exploration in Approximate Hyper-State Space for Meta Reinforcement Learning.** [[pdf](http://proceedings.mlr.press/v139/zintgraf21a.html)]
+   - Luisa M. Zintgraf, Leo Feng, Cong Lu, Maximilian Igl, Kristian Hartikainen, Katja Hofmann, Shimon Whiteson. *ICML 2021*.
+
+
+## International Conference on Robotics and Automation
+
+ - **Proactive Action Visual Residual Reinforcement Learning for Contact-Rich Tasks Using a Torque-Controlled Robot.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561162)]
+   - Yunlei Shi, Zhaopeng Chen, Hongxu Liu, Sebastian Riedel, Chunhui Gao, Qian Feng, Jun Deng, Jianwei Zhang. *ICRA 2021*.
+ - **Model-based Reinforcement Learning with Provable Safety Guarantees via Control Barrier Functions.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561253)]
+   - Hongchao Zhang, Zhouchi Li, Andrew Clark. *ICRA 2021*.
+ - **Continual Model-Based Reinforcement Learning with Hypernetworks.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9560793)]
+   - Yizhou Huang, Kevin Xie, Homanga Bharadhwaj, Florian Shkurti. *ICRA 2021*.
+ - **Reinforcement Learning Based Temporal Logic Control with Maximum Probabilistic Satisfaction.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561903)]
+   - Mingyu Cai, Shaoping Xiao, Baoluo Li, Zhiliang Li, Zhen Kan. *ICRA 2021*.
+ - **Decision Making for Autonomous Driving via Augmented Adversarial Inverse Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9560907)]
+   - Pin Wang, Dapeng Liu, Jiayu Chen, Hanhan Li, Ching-Yao Chan. *ICRA 2021*.
+ - **Deep Reinforcement Learning for Mapless Navigation of a Hybrid Aerial Underwater Vehicle with Medium Transition.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561188)]
+   - Ricardo B. Grando, Junior Costa de Jesus, Victor Augusto Kich, Alisson Henrique Kolling, Nicolas P. Bortoluzzi, Pedro M. Pinheiro, Armando Alves Neto, Paulo Lilles Jorge Drews Junior. *ICRA 2021*.
+ - **Robot Navigation in Constrained Pedestrian Environments using Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9560893)]
+   - Claudia Pérez-D'Arpino, Can Liu, Patrick Goebel, Roberto Martín-Martín, Silvio Savarese. *ICRA 2021*.
+ - **Reinforcement Learning Control of A Novel Magnetic Actuated Flexible-joint Robotic Camera System for Single Incision Laparoscopic Surgery.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9560927)]
+   - Dong Xu, Yuanlin Zhang, Wenshuai Tan, Hongxing Wei. *ICRA 2021*.
+ - **Deep Reinforcement Learning for Concentric Tube Robot Control with a Goal-Based Curriculum.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561620)]
+   - Keshav Iyengar, Danail Stoyanov. *ICRA 2021*.
+ - **Regularizing Action Policies for Smooth Control with Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561138)]
+   - Siddharth Mysore, Bassel Mabsout, Renato Mancuso, Kate Saenko. *ICRA 2021*.
+ - **Deep Reinforcement Learning for Active Target Tracking.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561258)]
+   - Heejin Jeong, Hamed Hassani, Manfred Morari, Daniel D. Lee, George J. Pappas. *ICRA 2021*.
+ - **Reaching Pruning Locations in a Vine Using a Deep Reinforcement Learning Policy.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9562075)]
+   - Francisco Yandún, Tanvir Parhar, Abhisesh Silwal, David Clifford, Zhiqiang Yuan, Gabriella Levine, Sergey Yaroshenko, George Kantor. *ICRA 2021*.
+ - **A Safe Hierarchical Planning Framework for Complex Driving Scenarios based on Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561195)]
+   - Jinning Li, Liting Sun, Jianyu Chen, Masayoshi Tomizuka, Wei Zhan. *ICRA 2021*.
+ - **Behavior Planning at Urban Intersections through Hierarchical Reinforcement Learning** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561095)]
+   - Zhiqian Qiao, Jeff Schneider, John M. Dolan. *ICRA 2021*.
+ - **Reinforcement Learning for Robust Parameterized Locomotion Control of Bipedal Robots.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9560769)]
+   - Zhongyu Li, Xuxin Cheng, Xue Bin Peng, Pieter Abbeel, Sergey Levine, Glen Berseth, Koushil Sreenath. *ICRA 2021*.
+ - **SimGAN: Hybrid Simulator Identification for Domain Adaptation via Adversarial Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561731)]
+   - Yifeng Jiang, Tingnan Zhang, Daniel Ho, Yunfei Bai, C. Karen Liu, Sergey Levine, Jie Tan. *ICRA 2021*.
+ - **DeepWalk: Omnidirectional Bipedal Gait by Deep Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561717)]
+   - Diego Rodriguez, Sven Behnke. *ICRA 2021*.
+ - **Decentralized Structural-RNN for Robot Crowd Navigation with Deep Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561595)]
+   - Shuijing Liu, Peixin Chang, Weihang Liang, Neeloy Chakraborty, Katherine Driggs Campbell. *ICRA 2021*.
+ - **Mesh Based Analysis of Low Fractal Dimension Reinforcement Learning Policies.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561874)]
+   - Sean Gillen, Katie Byl. *ICRA 2021*.
+ - **Evolvable Motion-planning Method using Deep Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561602)]
+   - Kaichiro Nishi, Nobuaki Nakasu. *ICRA 2021*.
+ - **Differentiable Physics Models for Real-world Offline Model-based Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561805)]
+   - Michael Lutter, Johannes Silberbauer, Joe Watson, Jan Peters. *ICRA 2021*.
+ - **Sample-efficient Reinforcement Learning in Robotic Table Tennis.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9560764)]
+   - Jonas Tebbe, Lukas Krauch, Yapeng Gao, Andreas Zell. *ICRA 2021*.
+ - **Sample Efficient Reinforcement Learning via Model-Ensemble Exploration and Exploitation.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561842)]
+   - Yao Yao, Li Xiao, Zhicheng An, Wanpeng Zhang, Dijun Luo. *ICRA 2021*.
+ - **Dreaming: Model-based Reinforcement Learning by Latent Imagination without Reconstruction.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9560734)]
+   - Masashi Okada, Tadahiro Taniguchi. *ICRA 2021*.
+ - **Multi-Modal Mutual Information (MuMMI) Training for Robust Self-Supervised Deep Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561187)]
+   - Kaiqi Chen, Yong Lee, Harold Soh. *ICRA 2021*.
+ - **Distilling a Hierarchical Policy for Planning and Control via Representation and Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561017)]
+   - Jung-Su Ha, Young-Jin Park, Hyeok-Joo Chae, Soon-Seo Park, Han-Lim Choi. *ICRA 2021*.
+ - **ReLMoGen: Integrating Motion Generation in Reinforcement Learning for Mobile Manipulation.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561315)]
+   - Fei Xia, Chengshu Li, Roberto Martín-Martín, Or Litany, Alexander Toshev, Silvio Savarese. *ICRA 2021*.
+ - **Reducing the Deployment-Time Inference Control Costs of Deep Reinforcement Learning Agents via an Asymmetric Architecture.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9562026)]
+   - Chin-Jui Chang, Yu-Wei Chu, Chao-Hsien Ting, Hao-Kang Liu, Zhang-Wei Hong, Chun-Yi Lee. *ICRA 2021*.
+ - **Zero-Shot Reinforcement Learning on Graphs for Autonomous Exploration Under Uncertainty.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561917)]
+   - Fanfei Chen, Paul Szenher, Yewei Huang, Jinkun Wang, Tixiao Shan, Shi Bai, Brendan J. Englot. *ICRA 2021*.
+ - **Robot in a China Shop: Using Reinforcement Learning for Location-Specific Navigation Behaviour.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561545)]
+   - Xihan Bian, Oscar Mendez Maldonado, Simon Hadfield. *ICRA 2021*.
+ - **Real-Time Trajectory Adaptation for Quadrupedal Locomotion using Deep Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561639)]
+   - Siddhant Gangapurwala, Mathieu Geisert, Romeo Orsolino, Maurice F. Fallon, Ioannis Havoutis. *ICRA 2021*.
+ - **DWA-RL: Dynamically Feasible Deep Reinforcement Learning Policy for Robot Navigation among Mobile Obstacles.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561462)]
+   - Utsav Patel, Nithish K. Sanjeev Kumar, Adarsh Jagan Sathyamoorthy, Dinesh Manocha. *ICRA 2021*.
+ - **Reinforcement Learning for Autonomous Driving with Latent State Inference and Spatial-Temporal Relationships.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9562006)]
+   - Xiaobai Ma, Jiachen Li, Mykel J. Kochenderfer, David Isele, Kikuo Fujimura. *ICRA 2021*.
+ - **Shaping Rewards for Reinforcement Learning with Imperfect Demonstrations using Generative Models.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561333)]
+   - Yuchen Wu, Melissa Mozifian, Florian Shkurti. *ICRA 2021*.
+ - **DisCo RL: Distribution-Conditioned Reinforcement Learning for General-Purpose Policies.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561402)]
+   - Soroush Nasiriany, Vitchyr H. Pong, Ashvin Nair, Alexander Khazatsky, Glen Berseth, Sergey Levine. *ICRA 2021*.
+ - **LASER: Learning a Latent Action Space for Efficient Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561232)]
+   - Arthur Allshire, Roberto Martín-Martín, Charles Lin, Shawn Manuel, Silvio Savarese, Animesh Garg. *ICRA 2021*.
+ - **Reset-Free Reinforcement Learning via Multi-Task Learning: Learning Dexterous Manipulation Behaviors without Human Intervention.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561384)]
+   - Abhishek Gupta, Justin Yu, Tony Z. Zhao, Vikash Kumar, Aaron Rovinsky, Kelvin Xu, Thomas Devlin, Sergey Levine. *ICRA 2021*.
+ - **Model Predictive Actor-Critic: Accelerating Robot Skill Acquisition with Deep Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561298)]
+   - Andrew S. Morgan, Daljeet Nandha, Georgia Chalvatzaki, Carlo D'Eramo, Aaron M. Dollar, Jan Peters. *ICRA 2021*.
+ - **Bimanual Regrasping for Suture Needles using Reinforcement Learning for Rapid Motion Planning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561673)]
+   - Zih-Yun Chiu, Florian Richter, Emily K. Funk, Ryan K. Orosco, Michael C. Yip. *ICRA 2021*.
+ - **NavRep: Unsupervised Representations for Reinforcement Learning of Robot Navigation in Dynamic Human Environments.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9560951)]
+   - Daniel Dugas, Juan I. Nieto, Roland Siegwart, Jen Jen Chung. *ICRA 2021*.
+ - **Remote-Center-of-Motion Recommendation toward Brain Needle Intervention Using Deep Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9560747)]
+   - Huxin Gao, Xiao Xiao, Liang Qiu, Max Q.-H. Meng, Nicolas Kon Kam King, Hongliang Ren. *ICRA 2021*.
+ - **Autonomous Navigation of an Ultrasound Probe Towards Standard Scan Planes with Deep Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561295)]
+   - Keyu Li, Jian Wang, Yangxin Xu, Hao Qin, Dongsheng Liu, Li Liu, Max Q.-H. Meng. *ICRA 2021*.
+ - **Decentralized Circle Formation Control for Fish-like Robots in the Real-world via Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9562019)]
+   - Tianhao Zhang, Yueheng Li, Shuai Li, Qiwei Ye, Chen Wang, Guangming Xie. *ICRA 2021*.
+ - **An Adaptive Fuzzy Reinforcement Learning Cooperative Approach for the Autonomous Control of Flock Systems.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561204)]
+   - Shuzheng Qu, Mohammed I. Abouheaf, Wail Gueaieb, Davide Spinello. *ICRA 2021*.
+ - **Autonomous Overtaking in Gran Turismo Sport Using Curriculum Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561049)]
+   - Yunlong Song, HaoChih Lin, Elia Kaufmann, Peter Dürr, Davide Scaramuzza. *ICRA 2021*.
+ - **Reinforcement Learning for Orientation Estimation Using Inertial Sensors with Performance Guarantee.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561440)]
+   - Liang Hu, Yujie Tang, Zhipeng Zhou, Wei Pan. *ICRA 2021*.
+ - **A Data-Driven Reinforcement Learning Solution Framework for Optimal and Adaptive Personalization of a Hip Exoskeleton.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9562062)]
+   - Xikai Tu, Minhan Li, Ming Liu, Jennie Si, He Helen Huang. *ICRA 2021*.
+ - **FISAR: Forward Invariant Safe Reinforcement Learning with a Deep Neural Network-Based Optimizer.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561147)]
+   - Chuangchuang Sun, Dong-Ki Kim, Jonathan P. How. *ICRA 2021*.
+ - **Coding for Distributed Multi-Agent Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561645)]
+   - Baoqian Wang, Junfei Xie, Nikolay Atanasov. *ICRA 2021*.
+ - **Model-Free Reinforcement Learning for Stochastic Games with Linear Temporal Logic Objectives.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561989)]
+   - Alper Kamil Bozkurt, Yu Wang, Michael M. Zavlanos, Miroslav Pajic. *ICRA 2021*.
+ - **Secure Planning Against Stealthy Attacks via Model-Free Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9560940)]
+   - Alper Kamil Bozkurt, Yu Wang, Miroslav Pajic. *ICRA 2021*.
+ - **Hierarchies of Planning and Reinforcement Learning for Robot Navigation.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561151)]
+   - Jan Wöhlke, Felix Schmitt, Herke van Hoof. *ICRA 2021*.
+ - **Context-Aware Safe Reinforcement Learning for Non-Stationary Environments.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561593)]
+   - Baiming Chen, Zuxin Liu, Jiacheng Zhu, Mengdi Xu, Wenhao Ding, Liang Li, Ding Zhao. *ICRA 2021*.
+ - **Quantification of Joint Redundancy considering Dynamic Feasibility using Deep Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561048)]
+   - Jiazheng Chai, Mitsuhiro Hayashibe. *ICRA 2021*.
+ - **A Novel Hybrid Approach for Fault-Tolerant Control of UAVs based on Robust Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9562097)]
+   - Yves Sohege, Marcos Quiñones-Grueiro, Gregory M. Provan. *ICRA 2021*.
+ - **Using Reinforcement Learning to Create Control Barrier Functions for Explicit Risk Mitigation in Adversarial Environments.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561853)]
+   - Edvards Scukins, Petter Ögren. *ICRA 2021*.
+ - **Approximate Inverse Reinforcement Learning from Vision-based Imitation Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9560916)]
+   - Keuntaek Lee, Bogdan I. Vlahov, Jason Gibson, James M. Rehg, Evangelos A. Theodorou. *ICRA 2021*.
+ - **Extendable Navigation Network based Reinforcement Learning for Indoor Robot Exploration.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561040)]
+   - Woo-Cheol Lee, Ming Chong Lim, Han-Lim Choi. *ICRA 2021*.
+ - **Deep Reinforcement Learning Framework for Underwater Locomotion of Soft Robot.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561145)]
+   - Guanda Li, Jun Shintake, Mitsuhiro Hayashibe. *ICRA 2021*.
+ - **Meta-Adversarial Inverse Reinforcement Learning for Decision-making Tasks.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561330)]
+   - Pin Wang, Hanhan Li, Ching-Yao Chan. *ICRA 2021*.
+ - **Generalization in Reinforcement Learning by Soft Data Augmentation.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561103)]
+   - Nicklas Hansen, Xiaolong Wang. *ICRA 2021*.
+ - **Autonomous Multi-View Navigation via Deep Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9561631)]
+   - Xueqin Huang, Wei Chen, Wei Zhang, Ran Song, Jiyu Cheng, Yibin Li. *ICRA 2021*.
+ - **Vision-Based Mobile Robotics Obstacle Avoidance With Deep Reinforcement Learning.** [[pdf](https://doi.org/10.1109/ICRA48506.2021.9560787)]
+   - Patrick Wenzel, Torsten Schön, Laura Leal-Taixé, Daniel Cremers. *ICRA 2021*.
+
+
+## International Joint Conference on Artificial Intelligence
+
+ - **Mean Field Games Flock! The Reinforcement Learning Way.** [[pdf](https://doi.org/10.24963/ijcai.2021/50)]
+   - Sarah Perrin, Mathieu Laurière, Julien Pérolat, Matthieu Geist, Romuald Élie, Olivier Pietquin. *IJCAI 2021*.
+ - **Reducing Bus Bunching with Asynchronous Multi-Agent Reinforcement Learning.** [[pdf](https://doi.org/10.24963/ijcai.2021/60)]
+   - Jiawei Wang, Lijun Sun. *IJCAI 2021*.
+ - **Data-Efficient Reinforcement Learning for Malaria Control.** [[pdf](https://doi.org/10.24963/ijcai.2021/71)]
+   - Lixin Zou. *IJCAI 2021*.
+ - **Multi-Objective Reinforcement Learning for Designing Ethical Environments.** [[pdf](https://doi.org/10.24963/ijcai.2021/76)]
+   - Manel Rodriguez-Soto, Maite López-Sánchez, Juan A. Rodríguez-Aguilar. *IJCAI 2021*.
+ - **Efficient PAC Reinforcement Learning in Regular Decision Processes.** [[pdf](https://doi.org/10.24963/ijcai.2021/279)]
+   - Alessandro Ronca, Giuseppe De Giacomo. *IJCAI 2021*.
+ - **Deep Reinforcement Learning for Navigation in AAA Video Games.** [[pdf](https://doi.org/10.24963/ijcai.2021/294)]
+   - Eloi Alonso, Maxim Peter, David Goumard, Joshua Romoff. *IJCAI 2021*.
+ - **Verifying Reinforcement Learning up to Infinity.** [[pdf](https://doi.org/10.24963/ijcai.2021/297)]
+   - Edoardo Bacci, Mirco Giacobbe, David Parker. *IJCAI 2021*.
+ - **Robustly Learning Composable Options in Deep Reinforcement Learning.** [[pdf](https://doi.org/10.24963/ijcai.2021/298)]
+   - Akhil Bagaria, Jason K. Senthil, Matthew Slivinski, George Konidaris. *IJCAI 2021*.
+ - **Reinforcement Learning for Sparse-Reward Object-Interaction Tasks in a First-person Simulated 3D Environment.** [[pdf](https://doi.org/10.24963/ijcai.2021/306)]
+   - Wilka Carvalho, Anthony Liang, Kimin Lee, Sungryull Sohn, Honglak Lee, Richard L. Lewis, Satinder Singh. *IJCAI 2021*.
+ - **Deep Reinforcement Learning for Multi-contact Motion Planning of Hexapod Robots.** [[pdf](https://doi.org/10.24963/ijcai.2021/328)]
+   - Huiqiao Fu, Kaiqiang Tang, Peng Li, Wenqi Zhang, Xinpeng Wang, Guizhou Deng, Tao Wang, Chunlin Chen. *IJCAI 2021*.
+ - **Model-Based Reinforcement Learning for Infinite-Horizon Discounted Constrained Markov Decision Processes.** [[pdf](https://doi.org/10.24963/ijcai.2021/347)]
+   - Aria HasanzadeZonuzy, Dileep M. Kalathil, Srinivas Shakkottai. *IJCAI 2021*.
+ - **Reinforcement Learning for Route Optimization with Robustness Guarantees.** [[pdf](https://doi.org/10.24963/ijcai.2021/357)]
+   - Tobias Jacobs, Francesco Alesiani, Gülcin Ermis. *IJCAI 2021*.
+ - **Average-Reward Reinforcement Learning with Trust Region Methods.** [[pdf](https://doi.org/10.24963/ijcai.2021/385)]
+   - Xiaoteng Ma, Xiaohang Tang, Li Xia, Jun Yang, Qianchuan Zhao. *IJCAI 2021*.
+ - **Meta-Reinforcement Learning by Tracking Task Non-stationarity.** [[pdf](https://doi.org/10.24963/ijcai.2021/399)]
+   - Riccardo Poiani, Andrea Tirinzoni, Marcello Restelli. *IJCAI 2021*.
+ - **Multi-Agent Reinforcement Learning for Automated Peer-to-Peer Energy Trading in Double-Side Auction Market.** [[pdf](https://doi.org/10.24963/ijcai.2021/401)]
+   - Dawei Qiu, Jianhong Wang, Junkai Wang, Goran Strbac. *IJCAI 2021*.
+ - **Reinforcement Learning Based Sparse Black-box Adversarial Attack on Video Recognition Models.** [[pdf](https://doi.org/10.24963/ijcai.2021/435)]
+   - Zeyuan Wang, Chaofeng Sha, Su Yang. *IJCAI 2021*.
+ - **Deep Reinforcement Learning Boosted Partial Domain Adaptation.** [[pdf](https://doi.org/10.24963/ijcai.2021/439)]
+   - Keyu Wu, Min Wu, Jianfei Yang, Zhenghua Chen, Zhengguo Li, Xiaoli Li. *IJCAI 2021*.
+ - **Non-decreasing Quantile Function Network with Efficient Exploration for Distributional Reinforcement Learning.** [[pdf](https://doi.org/10.24963/ijcai.2021/476)]
+   - Fan Zhou, Zhoufan Zhu, Qi Kuang, Liwen Zhang. *IJCAI 2021*.
+ - **Ordering-Based Causal Discovery with Reinforcement Learning.** [[pdf](https://doi.org/10.24963/ijcai.2021/491)]
+   - Xiaoqiang Wang, Yali Du, Shengyu Zhu, Liangjun Ke, Zhitang Chen, Jianye Hao, Jun Wang. *IJCAI 2021*.
+ - **Boosting Offline Reinforcement Learning with Residual Generative Modeling.** [[pdf](https://doi.org/10.24963/ijcai.2021/492)]
+   - Hua Wei, Deheng Ye, Zhao Liu, Hao Wu, Bo Yuan, Qiang Fu, Wei Yang, Zhenhui Li. *IJCAI 2021*.
+ - **Dynamic Lane Traffic Signal Control with Group Attention and Multi-Timescale Reinforcement Learning.** [[pdf](https://doi.org/10.24963/ijcai.2021/501)]
+   - Qize Jiang, Jingze Li, Weiwei Sun, Baihua Zheng. *IJCAI 2021*.
+ - **BACKDOORL: Backdoor Attack against Competitive Reinforcement Learning.** [[pdf](https://doi.org/10.24963/ijcai.2021/509)]
+   - Lun Wang, Zaynah Javed, Xian Wu, Wenbo Guo, Xinyu Xing, Dawn Song. *IJCAI 2021*.
+ - **Objective-aware Traffic Simulation via Inverse Reinforcement Learning.** [[pdf](https://doi.org/10.24963/ijcai.2021/519)]
+   - Guanjie Zheng, Hanyang Liu, Kai Xu, Zhenhui Li. *IJCAI 2021*.
+ - **Policy Learning with Constraints in Model-free Reinforcement Learning: A Survey.** [[pdf](https://doi.org/10.24963/ijcai.2021/614)]
+   - Yongshuai Liu, Avishai Halev, Xin Liu. *IJCAI 2021*.
+ - **Deep Residual Reinforcement Learning (Extended Abstract).** [[pdf](https://doi.org/10.24963/ijcai.2021/668)]
+   - Shangtong Zhang, Wendelin Boehmer, Shimon Whiteson. *IJCAI 2021*.
+ - **Planning and Reinforcement Learning for General-Purpose Service Robots.** [[pdf](https://doi.org/10.24963/ijcai.2021/679)]
+   - Yuqian Jiang. *IJCAI 2021*.
+ - **Deep Reinforcement Learning with Hierarchical Structures.** [[pdf](https://doi.org/10.24963/ijcai.2021/681)]
+   - Siyuan Li. *IJCAI 2021*.
+ - **Combining Reinforcement Learning and Causal Models for Robotics Applications.** [[pdf](https://doi.org/10.24963/ijcai.2021/684)]
+   - Arquímides Méndez-Molina. *IJCAI 2021*.
+ - **Inter-Task Similarity for Lifelong Reinforcement Learning in Heterogeneous Tasks.** [[pdf](https://doi.org/10.24963/ijcai.2021/689)]
+   - Sergio A. Serrano. *IJCAI 2021*.
+ - **Width-Based Algorithms for Common Problems in Control, Planning and Reinforcement Learning.** [[pdf](https://doi.org/10.24963/ijcai.2021/702)]
+   - Nir Lipovetzky. *IJCAI 2021*.
+
+
+## Annual Conference on Neural Information Processing Systems
+ - **Beyond Value-Function Gaps: Improved Instance-Dependent Regret Bounds for Episodic Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/000c076c390a4c357313fca29e390ece-Abstract.html)]
+   - Christoph Dann, Teodor Vanislavov Marinov, Mehryar Mohri, Julian Zimmert. *NeurIPS 2021*.
+ - **Understanding End-to-End Model-Based Reinforcement Learning Methods as Implicit Parameterization.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/067a26d87265ea39030f5bd82408ce7c-Abstract.html)]
+   - Clement Gehring, Kenji Kawaguchi, Jiaoyang Huang, Leslie Pack Kaelbling. *NeurIPS 2021*.
+ - **Fault-Tolerant Federated Reinforcement Learning with Theoretical Guarantee.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/080acdcce72c06873a773c4311c2e464-Abstract.html)]
+   - Flint Xiaofeng Fan, Yining Ma, Zhongxiang Dai, Wei Jing, Cheston Tan, Bryan Kian Hsiang Low. *NeurIPS 2021*.
+ - **Risk-Averse Bayes-Adaptive Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/08f90c1a417155361a5c4b8d297e0d78-Abstract.html)]
+   - Marc Rigter, Bruno Lacerda, Nick Hawes. *NeurIPS 2021*.
+ - **Offline Reinforcement Learning as One Big Sequence Modeling Problem.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/099fe6b0b444c23836c4a5d07346082b-Abstract.html)]
+   - Michael Janner, Qiyang Li, Sergey Levine. *NeurIPS 2021*.
+ - **Distributional Reinforcement Learning for Multi-Dimensional Reward Functions.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/0b9e57c46de934cee33b0e8d1839bfc2-Abstract.html)]
+   - Pushi Zhang, Xiaoyu Chen, Li Zhao, Wei Xiong, Tao Qin, Tie-Yan Liu. *NeurIPS 2021*.
+ - **A Consciousness-Inspired Planning Agent for Model-Based Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/0c215f194276000be6a6df6528067151-Abstract.html)]
+   - Mingde Zhao, Zhen Liu, Sitao Luan, Shuyuan Zhang, Doina Precup, Yoshua Bengio. *NeurIPS 2021*.
+ - **Reward-Free Model-Based Reinforcement Learning with Linear Function Approximation.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/0cb929eae7a499e50248a3a78f7acfc7-Abstract.html)]
+   - Weitong Zhang, Dongruo Zhou, Quanquan Gu. *NeurIPS 2021*.
+ - **There Is No Turning Back: A Self-Supervised Approach for Reversibility-Aware Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/0e98aeeb54acf612b9eb4e48a269814c-Abstract.html)]
+   - Nathan Grinsztajn, Johan Ferret, Olivier Pietquin, Philippe Preux, Matthieu Geist. *NeurIPS 2021*.
+ - **Reinforcement Learning in Reward-Mixing MDPs.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/11f9e78e4899a78dedd439fc583b6693-Abstract.html)]
+   - Jeongyeol Kwon, Yonathan Efroni, Constantine Caramanis, Shie Mannor. *NeurIPS 2021*.
+ - **Goal-Aware Cross-Entropy for Multi-Target Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/165a59f7cf3b5c4396ba65953d679f17-Abstract.html)]
+   - Kibeom Kim, Min Whoo Lee, Yoonsung Kim, Je-Hwan Ryu, Min Su Lee, Byoung-Tak Zhang. *NeurIPS 2021*.
+ - **On the Convergence Theory of Debiased Model-Agnostic Meta-Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/18085327b86002fc604c323b9a07f997-Abstract.html)]
+   - Alireza Fallah, Kristian Georgiev, Aryan Mokhtari, Asuman E. Ozdaglar. *NeurIPS 2021*.
+ - **Multi-Agent Reinforcement Learning for Active Voltage Control on Power Distribution Networks.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/1a6727711b84fd1efbb87fc565199d13-Abstract.html)]
+   - Jianhong Wang, Wangkun Xu, Yunjie Gu, Wenbin Song, Tim C. Green. *NeurIPS 2021*.
+ - **On the Theory of Reinforcement Learning with Once-per-Episode Feedback.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/1bf2efbbe0c49b9f567c2e40f645279a-Abstract.html)]
+   - Niladri S. Chatterji, Aldo Pacchiano, Peter L. Bartlett, Michael I. Jordan. *NeurIPS 2021*.
+ - **On Effective Scheduling of Model-based Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/1e4d36177d71bbb3558e43af9577d70e-Abstract.html)]
+   - Hang Lai, Jian Shen, Weinan Zhang, Yimin Huang, Xing Zhang, Ruiming Tang, Yong Yu, Zhenguo Li. *NeurIPS 2021*.
+ - **Damped Anderson Mixing for Deep Reinforcement Learning: Acceleration, Convergence, and Stabilization.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/1e79596878b2320cac26dd792a6c51c9-Abstract.html)]
+   - Ke Sun, Yafei Wang, Yi Liu, Yingnan Zhao, Bo Pan, Shangling Jui, Bei Jiang, Linglong Kong. *NeurIPS 2021*.
+ - **Episodic Multi-agent Reinforcement Learning with Curiosity-driven Exploration.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/1e8ca836c962598551882e689265c1c5-Abstract.html)]
+   - Lulu Zheng, Jiarui Chen, Jianhao Wang, Jiamin He, Yujing Hu, Yingfeng Chen, Changjie Fan, Yang Gao, Chongjie Zhang. *NeurIPS 2021*.
+ - **Information Directed Reward Learning for Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/1fa6269f58898f0e809575c9a48747ef-Abstract.html)]
+   - David Lindner, Matteo Turchetta, Sebastian Tschiatschek, Kamil Ciosek, Andreas Krause. *NeurIPS 2021*.
+ - **Celebrating Diversity in Shared Multi-Agent Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/20aee3a5f4643755a79ee5f6a73050ac-Abstract.html)]
+   - Chenghao Li, Tonghan Wang, Chengjie Wu, Qianchuan Zhao, Jun Yang, Chongjie Zhang. *NeurIPS 2021*.
+ - **Towards Instance-Optimal Offline Reinforcement Learning with Pessimism.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/212ab20dbdf4191cbcdcf015511783f4-Abstract.html)]
+   - Ming Yin, Yu-Xiang Wang. *NeurIPS 2021*.
+ - **Environment Generation for Zero-Shot Compositional Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/218344619d8fb95d504ccfa11804073f-Abstract.html)]
+   - Izzeddin Gur, Natasha Jaques, Yingjie Miao, Jongwook Choi, Manoj Tiwari, Honglak Lee, Aleksandra Faust. *NeurIPS 2021*.
+ - **Offline Meta Reinforcement Learning - Identifiability Challenges and Effective Data Collection Strategies.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/248024541dbda1d3fd75fe49d1a4df4d-Abstract.html)]
+   - Ron Dorfman, Idan Shenfeld, Aviv Tamar. *NeurIPS 2021*.
+ - **PlayVirtual: Augmenting Cycle-Consistent Virtual Trajectories for Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/2a38a4a9316c49e5a833517c45d31070-Abstract.html)]
+   - Tao Yu, Cuiling Lan, Wenjun Zeng, Mingxiao Feng, Zhizheng Zhang, Zhibo Chen. *NeurIPS 2021*.
+ - **Unifying Gradient Estimators for Meta-Reinforcement Learning via Off-Policy Evaluation.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/2a8009525763356ad5e3bb48b7475b4d-Abstract.html)]
+   - Yunhao Tang, Tadashi Kozuno, Mark Rowland, Rémi Munos, Michal Valko. *NeurIPS 2021*.
+ - **Automatic Data Augmentation for Generalization in Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/2b38c2df6a49b97f706ec9148ce48d86-Abstract.html)]
+   - Roberta Raileanu, Maxwell Goldstein, Denis Yarats, Ilya Kostrikov, Rob Fergus. *NeurIPS 2021*.
+ - **RLlib Flow: Distributed Reinforcement Learning is a Dataflow Problem.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/2bce32ed409f5ebcee2a7b417ad9beed-Abstract.html)]
+   - Eric Liang, Zhanghao Wu, Michael Luo, Sven Mika, Joseph E. Gonzalez, Ion Stoica. *NeurIPS 2021*.
+ - **Brick-by-Brick: Combinatorial Construction with Deep Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/2d4027d6df9c0256b8d4474ce88f8c88-Abstract.html)]
+   - Hyunsoo Chung, Jungtaek Kim, Boris Knyazev, Jinhwi Lee, Graham W. Taylor, Jaesik Park, Minsu Cho. *NeurIPS 2021*.
+ - **Bellman-consistent Pessimism for Offline Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/34f98c7c5d7063181da890ea8d25265a-Abstract.html)]
+   - Tengyang Xie, Ching-An Cheng, Nan Jiang, Paul Mineiro, Alekh Agarwal. *NeurIPS 2021*.
+ - **Teachable Reinforcement Learning via Advice Distillation.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/37cfff3c04f95b22bcf166df586cd7a9-Abstract.html)]
+   - Olivia Watkins, Abhishek Gupta, Trevor Darrell, Pieter Abbeel, Jacob Andreas. *NeurIPS 2021*.
+ - **Inverse Reinforcement Learning in a Continuous State Space with Formal Guarantees.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/384babc3e7faa44cf1ca671b74499c3b-Abstract.html)]
+   - Gregory Dexter, Kevin Bello, Jean Honorio. *NeurIPS 2021*.
+ - **Online Robust Reinforcement Learning with Model Uncertainty.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/3a4496776767aaa99f9804d0905fe584-Abstract.html)]
+   - Yue Wang, Shaofeng Zou. *NeurIPS 2021*.
+ - **Uncertainty-Based Offline Reinforcement Learning with Diversified Q-Ensemble.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/3d3d286a8d153a4a58156d0e02d8570c-Abstract.html)]
+   - Gaon An, Seungyong Moon, Jang-Hyun Kim, Hyun Oh Song. *NeurIPS 2021*.
+ - **A Provably Efficient Sample Collection Strategy for Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/3e98410c45ea98addec555019bbae8eb-Abstract.html)]
+   - Jean Tarbouriech, Matteo Pirotta, Michal Valko, Alessandro Lazaric. *NeurIPS 2021*.
+ - **Near-Optimal Offline Reinforcement Learning via Double Variance Reduction.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/3f24bb08a5741e4197af64e1f93a5029-Abstract.html)]
+   - Ming Yin, Yu Bai, Yu-Xiang Wang. *NeurIPS 2021*.
+ - **Multi-Agent Reinforcement Learning in Stochastic Networked Systems.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/412604be30f701b1b1e3124c252065e6-Abstract.html)]
+   - Yiheng Lin, Guannan Qu, Longbo Huang, Adam Wierman. *NeurIPS 2021*.
+ - **When Is Generalizable Reinforcement Learning Tractable?** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/437d46a857214c997956eaf0e3b21a55-Abstract.html)]
+   - Dhruv Malik, Yuanzhi Li, Pradeep Ravikumar. *NeurIPS 2021*.
+ - **Learning Markov State Abstractions for Deep Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/454cecc4829279e64d624cd8a8c9ddf1-Abstract.html)]
+   - Cameron Allen, Neev Parikh, Omer Gottesman, George Konidaris. *NeurIPS 2021*.
+ - **Towards Deeper Deep Reinforcement Learning with Spectral Normalization.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/4588e674d3f0faf985047d4c3f13ed0d-Abstract.html)]
+   - Johan Bjorck, Carla P. Gomes, Kilian Q. Weinberger. *NeurIPS 2021*.
+ - **Adversarial Intrinsic Motivation for Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/486c0401c56bf7ec2daa9eba58907da9-Abstract.html)]
+   - Ishan Durugkar, Mauricio Tec, Scott Niekum, Peter Stone. *NeurIPS 2021*.
+ - **Learning MDPs from Features: Predict-Then-Optimize for Sequential Decision Making by Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/49e863b146f3b5470ee222ee84669b1c-Abstract.html)]
+   - Kai Wang, Sanket Shah, Haipeng Chen, Andrew Perrault, Finale Doshi-Velez, Milind Tambe. *NeurIPS 2021*.
+ - **TacticZero: Learning to Prove Theorems from Scratch with Deep Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/4dea382d82666332fb564f2e711cbc71-Abstract.html)]
+   - Minchao Wu, Michael Norrish, Christian Walder, Amir Dezfouli. *NeurIPS 2021*.
+ - **Model-Based Reinforcement Learning via Imagination with Derived Memory.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/4ebccfb3e317c7789f04f7a558df4537-Abstract.html)]
+   - Yao Mu, Yuzheng Zhuang, Bin Wang, Guangxiang Zhu, Wulong Liu, Jianyu Chen, Ping Luo, Shengbo Li, Chongjie Zhang, Jianye Hao. *NeurIPS 2021*.
+ - **Co-Adaptation of Algorithmic and Implementational Innovations in Inference-based Deep Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/517f24c02e620d5a4dac1db388664a63-Abstract.html)]
+   - Hiroki Furuta, Tadashi Kozuno, Tatsuya Matsushima, Yutaka Matsuo, Shixiang Shane Gu. *NeurIPS 2021*.
+ - **Compositional Reinforcement Learning from Logical Specifications.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/531db99cb00833bcd414459069dc7387-Abstract.html)]
+   - Kishor Jothimurugan, Suguman Bansal, Osbert Bastani, Rajeev Alur. *NeurIPS 2021*.
+ - **Believe What You See: Implicit Constraint Approach for Offline Multi-Agent Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/550a141f12de6341fba65b0ad0433500-Abstract.html)]
+   - Yiqin Yang, Xiaoteng Ma, Chenghao Li, Zewu Zheng, Qiyuan Zhang, Gao Huang, Jun Yang, Qianchuan Zhao. *NeurIPS 2021*.
+ - **Local Differential Privacy for Regret Minimization in Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/580760fb5def6e2ca8eaf601236d5b08-Abstract.html)]
+   - Evrard Garcelon, Vianney Perchet, Ciara Pike-Burke, Matteo Pirotta. *NeurIPS 2021*.
+ - **Continuous Doubly Constrained Batch Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/5da713a690c067105aeb2fae32403405-Abstract.html)]
+   - Rasool Fakoor, Jonas Mueller, Kavosh Asadi, Pratik Chaudhari, Alexander J. Smola. *NeurIPS 2021*.
+ - **Conservative Data Sharing for Multi-Task Offline Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/5fd2c06f558321eff612bbbe455f6fbd-Abstract.html)]
+   - Tianhe Yu, Aviral Kumar, Yevgen Chebotar, Karol Hausman, Sergey Levine, Chelsea Finn. *NeurIPS 2021*.
+ - **Bridging Offline Reinforcement Learning and Imitation Learning: A Tale of Pessimism.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/60ce36723c17bbac504f2ef4c8a46995-Abstract.html)]
+   - Paria Rashidinejad, Banghua Zhu, Cong Ma, Jiantao Jiao, Stuart Russell. *NeurIPS 2021*.
+ - **A Provably Efficient Model-Free Posterior Sampling Method for Episodic Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/649d45bf179296e31731adfd4df25588-Abstract.html)]
+   - Christoph Dann, Mehryar Mohri, Tong Zhang, Julian Zimmert. *NeurIPS 2021*.
+ - **Optimization-Based Algebraic Multigrid Coarsening Using Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/6531b32f8d02fece98ff36a64a7c8260-Abstract.html)]
+   - Ali Taghibakhshi, Scott P. MacLachlan, Luke N. Olson, Matthew West. *NeurIPS 2021*.
+ - **EDGE: Explaining Deep Reinforcement Learning Policies.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/65c89f5a9501a04c073b354f03791b1f-Abstract.html)]
+   - Wenbo Guo, Xian Wu, Usmann Khan, Xinyu Xing. *NeurIPS 2021*.
+ - **Provably Efficient Black-Box Action Poisoning Attacks Against Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/678004486c119599ed7d199f47da043a-Abstract.html)]
+   - Guanlin Liu, Lifeng Lai. *NeurIPS 2021*.
+ - **Cross-modal Domain Adaptation for Cost-Efficient Visual Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/68264bdb65b97eeae6788aa3348e553c-Abstract.html)]
+   - Xiong-Hui Chen, Shengyi Jiang, Feng Xu, Zongzhang Zhang, Yang Yu. *NeurIPS 2021*.
+ - **Pretraining Representations for Data-Efficient Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/69eba34671b3ef1ef38ee85caae6b2a1-Abstract.html)]
+   - Max Schwarzer, Nitarshan Rajkumar, Michael Noukhovitch, Ankesh Anand, Laurent Charlin, R. Devon Hjelm, Philip Bachman, Aaron C. Courville. *NeurIPS 2021*.
+ - **Tactical Optimism and Pessimism for Deep Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/6abcc8f24321d1eb8c95855eab78ee95-Abstract.html)]
+   - Ted Moskovitz, Jack Parker-Holder, Aldo Pacchiano, Michael Arbel, Michael I. Jordan. *NeurIPS 2021*.
+ - **Towards Hyperparameter-free Policy Selection for Offline Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/6add07cf50424b14fdf649da87843d01-Abstract.html)]
+   - Siyuan Zhang, Nan Jiang. *NeurIPS 2021*.
+ - **Optimal Uniform OPE and Model-based Offline Reinforcement Learning in Time-Homogeneous, Reward-Free and Task-Agnostic Settings.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/6b3c49bdba5be0d322334e30c459f8bd-Abstract.html)]
+   - Ming Yin, Yu-Xiang Wang. *NeurIPS 2021*.
+ - **Outcome-Driven Reinforcement Learning via Variational Inference.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/6cdd60ea0045eb7a6ec44c54d29ed402-Abstract.html)]
+   - Tim G. J. Rudner, Vitchyr Pong, Rowan McAllister, Yarin Gal, Sergey Levine. *NeurIPS 2021*.
+ - **Accommodating Picky Customers: Regret Bound and Exploration Complexity for Multi-Objective Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/6d7d394c9d0c886e9247542e06ebb705-Abstract.html)]
+   - Jingfeng Wu, Vladimir Braverman, Lin Yang. *NeurIPS 2021*.
+ - **Provably Efficient Reinforcement Learning with Linear Function Approximation under Adaptivity Constraints.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/70a32110fff0f26d301e58ebbca9cb9f-Abstract.html)]
+   - Tianhao Wang, Dongruo Zhou, Quanquan Gu. *NeurIPS 2021*.
+ - **Heuristic-Guided Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/70d31b87bd021441e5e6bf23eb84a306-Abstract.html)]
+   - Ching-An Cheng, Andrey Kolobov, Adith Swaminathan. *NeurIPS 2021*.
+ - **Provable Benefits of Actor-Critic Methods for Offline Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/713fd63d76c8a57b16fc433fb4ae718a-Abstract.html)]
+   - Andrea Zanette, Martin J. Wainwright, Emma Brunskill. *NeurIPS 2021*.
+ - **Safe Reinforcement Learning with Natural Language Constraints.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/72f67e70f6b7cdc4cc893edaddf0c4c6-Abstract.html)]
+   - Tsung-Yen Yang, Michael Y. Hu, Yinlam Chow, Peter J. Ramadge, Karthik Narasimhan. *NeurIPS 2021*.
+ - **Safe Reinforcement Learning by Imagining the Near Future.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/73b277c11266681122132d024f53a75b-Abstract.html)]
+   - Garrett Thomas, Yuping Luo, Tengyu Ma. *NeurIPS 2021*.
+ - **Uniform-PAC Bounds for Reinforcement Learning with Linear Function Approximation.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/7695ea769f021803c508817dd374bb27-Abstract.html)]
+   - Jiafan He, Dongruo Zhou, Quanquan Gu. *NeurIPS 2021*.
+ - **MAP Propagation Algorithm: Faster Learning with a Team of Reinforcement Learning Agents.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/7c05147f3029c97ce26c0cb0b2469fca-Abstract.html)]
+   - Stephen Chung. *NeurIPS 2021*.
+ - **PettingZoo: Gym for Multi-Agent Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/7ed2d3454c5eea71148b11d0c25104ff-Abstract.html)]
+   - Justin K. Terry, Benjamin Black, Nathaniel Grammel, Mario Jayakumar, Ananth Hari, Ryan Sullivan, Luis S. Santos, Clemens Dieffendahl, Caroline Horsch, Rodrigo Perez-Vicente, Niall L. Williams, Yashas Lokesh, Praveen Ravi. *NeurIPS 2021*.
+ - **Decision Transformer: Reinforcement Learning via Sequence Modeling.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/7f489f642a0ddb10272b5c31057f0663-Abstract.html)]
+   - Lili Chen, Kevin Lu, Aravind Rajeswaran, Kimin Lee, Aditya Grover, Michael Laskin, Pieter Abbeel, Aravind Srinivas, Igor Mordatch. *NeurIPS 2021*.
+ - **Nearly Horizon-Free Offline Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/8396b14c5dff55d13eea57487bf8ed26-Abstract.html)]
+   - Tongzheng Ren, Jialian Li, Bo Dai, Simon S. Du, Sujay Sanghavi. *NeurIPS 2021*.
+ - **Reinforcement Learning with State Observation Costs in Action-Contingent Noiselessly Observable Markov Decision Processes.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/83e8fe6279ad25f15b23c6298c6a3584-Abstract.html)]
+   - Hyunji Alex Nam, Scott L. Fleming, Emma Brunskill. *NeurIPS 2021*.
+ - **Contrastive Reinforcement Learning of Symbolic Reasoning Domains.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/859555c74e9afd45ab771c615c1e49a6-Abstract.html)]
+   - Gabriel Poesia, Wenxin Dong, Noah D. Goodman. *NeurIPS 2021*.
+ - **Reinforcement Learning in Linear MDPs: Constant Regret and Representation Selection.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/8860e834a67da41edd6ffe8a1c58fa55-Abstract.html)]
+   - Matteo Papini, Andrea Tirinzoni, Aldo Pacchiano, Marcello Restelli, Alessandro Lazaric, Matteo Pirotta. *NeurIPS 2021*.
+ - **Sample-Efficient Reinforcement Learning Is Feasible for Linearly Realizable MDPs with Limited Revisiting.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/8b5700012be65c9da25f49408d959ca0-Abstract.html)]
+   - Gen Li, Yuxin Chen, Yuejie Chi, Yuantao Gu, Yuting Wei. *NeurIPS 2021*.
+ - **Scalable Online Planning via Reinforcement Learning Fine-Tuning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/8ce8b102d40392a688f8c04b3cd6cae0-Abstract.html)]
+   - Arnaud Fickinger, Hengyuan Hu, Brandon Amos, Stuart J. Russell, Noam Brown. *NeurIPS 2021*.
+ - **An Efficient Transfer Learning Framework for Multiagent Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/8d9a6e908ed2b731fb96151d9bb94d49-Abstract.html)]
+   - Tianpei Yang, Weixun Wang, Hongyao Tang, Jianye Hao, Zhaopeng Meng, Hangyu Mao, Dong Li, Wulong Liu, Yingfeng Chen, Yujing Hu, Changjie Fan, Chengwei Zhang. *NeurIPS 2021*.
+ - **Risk-Aware Transfer in Reinforcement Learning using Successor Features.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/90610aa0e24f63ec6d2637e06f9b9af2-Abstract.html)]
+   - Michael Gimelfarb, André Barreto, Scott Sanner, Chi-Guhn Lee. *NeurIPS 2021*.
+ - **Regret Minimization Experience Replay in Off-Policy Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/931af583573227f0220bc568c65ce104-Abstract.html)]
+   - Xu-Hui Liu, Zhenghai Xue, Jing-Cheng Pang, Shengyi Jiang, Feng Xu, Yang Yu. *NeurIPS 2021*.
+ - **Breaking the Sample Complexity Barrier to Regret-Optimal Model-Free Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/94739e5a5164b4d2396e253a11d57044-Abstract.html)]
+   - Gen Li, Laixi Shi, Yuxin Chen, Yuantao Gu, Yuejie Chi. *NeurIPS 2021*.
+ - **A Law of Iterated Logarithm for Multi-Agent Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/955fd82131e15e7b5199cbc8f983306a-Abstract.html)]
+   - Gugan Thoppe, Bhumesh Kumar. *NeurIPS 2021*.
+ - **Autonomous Reinforcement Learning via Subgoal Curricula.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/99c83c904d0d64fbef50d919a5c66a80-Abstract.html)]
+   - Archit Sharma, Abhishek Gupta, Sergey Levine, Karol Hausman, Chelsea Finn. *NeurIPS 2021*.
+ - **PerSim: Data-Efficient Offline Reinforcement Learning with Heterogeneous Agents via Personalized Simulators.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/9a3f263a5e5f63006098a05cd7491997-Abstract.html)]
+   - Anish Agarwal, Abdullah Alomar, Varkey Alumootil, Devavrat Shah, Dennis Shen, Zhi Xu, Cindy Yang. *NeurIPS 2021*.
+ - **Taming Communication and Sample Complexities in Decentralized Policy Evaluation for Cooperative Multi-Agent Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/9c51a13764ca629f439f6accbb4ec413-Abstract.html)]
+   - Xin Zhang, Zhuqing Liu, Jia Liu, Zhengyuan Zhu, Songtao Lu. *NeurIPS 2021*.
+ - **Agnostic Reinforcement Learning with Low-Rank MDPs and Rich Observations.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/9eed867b73ab1eab60583c9d4a789b1b-Abstract.html)]
+   - Ayush Sekhari, Christoph Dann, Mehryar Mohri, Yishay Mansour, Karthik Sridharan. *NeurIPS 2021*.
+ - **Functional Regularization for Reinforcement Learning via Learned Fourier Features.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/9f0609b9d45dd55bed75f892cf095fcf-Abstract.html)]
+   - Alexander C. Li, Deepak Pathak. *NeurIPS 2021*.
+ - **Agent Modelling under Partial Observability for Deep Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/a03caec56cd82478bf197475b48c05f9-Abstract.html)]
+   - Georgios Papoudakis, Filippos Christianos, Stefano V. Albrecht. *NeurIPS 2021*.
+ - **Conservative Offline Distributional Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/a05d886123a54de3ca4b0985b718fb9b-Abstract.html)]
+   - Yecheng Jason Ma, Dinesh Jayaraman, Osbert Bastani. *NeurIPS 2021*.
+ - **Learning Tree Interpretation from Object Representation for Deep Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/a35fe7f7fe8217b4369a0af4244d1fca-Abstract.html)]
+   - Guiliang Liu, Xiangyu Sun, Oliver Schulte, Pascal Poupart. *NeurIPS 2021*.
+ - **Explicable Reward Design for Reinforcement Learning Agents.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/a7f0d2b95c60161b3f3c82f764b1d1c9-Abstract.html)]
+   - Rati Devidze, Goran Radanovic, Parameswaran Kamalaruban, Adish Singla. *NeurIPS 2021*.
+ - **A Minimalist Approach to Offline Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/a8166da05c5a094f7dc03724b41886e5-Abstract.html)]
+   - Scott Fujimoto, Shixiang Shane Gu. *NeurIPS 2021*.
+ - **BCORLE(λ): An Offline Reinforcement Learning and Evaluation Framework for Coupons Allocation in E-commerce Market.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/ab452534c5ce28c4fbb0e102d4a4fb2e-Abstract.html)]
+   - Yang Zhang, Bo Tang, Qingyu Yang, Dou An, Hongyin Tang, Chenyang Xi, Xueying Li, Feiyu Xiong. *NeurIPS 2021*.
+ - **Exponential Bellman Equation and Improved Regret Bounds for Risk-Sensitive Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/ab6439fa2daf0246f92eea433bca5ac4-Abstract.html)]
+   - Yingjie Fei, Zhuoran Yang, Yudong Chen, Zhaoran Wang. *NeurIPS 2021*.
+ - **Reinforcement Learning based Disease Progression Model for Alzheimer's Disease.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/af1c25e88a9e818f809f6b5d18ca02e2-Abstract.html)]
+   - Krishnakant V. Saboo, Anirudh Choudhary, Yurui Cao, Gregory A. Worrell, David T. Jones, Ravishankar K. Iyer. *NeurIPS 2021*.
+ - **Accelerating Quadratic Optimization with Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/afdec7005cc9f14302cd0474fd0f3c96-Abstract.html)]
+   - Jeffrey Ichnowski, Paras Jain, Bartolomeo Stellato, Goran Banjac, Michael Luo, Francesco Borrelli, Joseph E. Gonzalez, Ion Stoica, Ken Goldberg. *NeurIPS 2021*.
+ - **Provably Efficient Causal Reinforcement Learning with Confounded Observational Data.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/b0b79da57b95837f14be95aaa4d54cf8-Abstract.html)]
+   - Lingxiao Wang, Zhuoran Yang, Zhaoran Wang. *NeurIPS 2021*.
+ - **Hierarchical Reinforcement Learning with Timed Subgoals.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/b59c21a078fde074a6750e91ed19fb21-Abstract.html)]
+   - Nico Gürtler, Dieter Büchler, Georg Martius. *NeurIPS 2021*.
+ - **Accelerating Robotic Reinforcement Learning via Parameterized Action Primitives.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/b6846b0186a035fcc76b1b1d26fd42fa-Abstract.html)]
+   - Murtaza Dalal, Deepak Pathak, Ruslan Salakhutdinov. *NeurIPS 2021*.
+ - **Widening the Pipeline in Human-Guided Reinforcement Learning with Explanation and Context-Aware Data Augmentation.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/b6f8dc086b2d60c5856e4ff517060392-Abstract.html)]
+   - Lin Guan, Mudit Verma, Sihang Guo, Ruohan Zhang, Subbarao Kambhampati. *NeurIPS 2021*.
+ - **Reinforcement Learning in Newcomblike Environments.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/b9ed18a301c9f3d183938c451fa183df-Abstract.html)]
+   - James Bell, Linda Linsefors, Caspar Oesterheld, Joar Skalse. *NeurIPS 2021*.
+ - **Reinforcement Learning with Latent Flow.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/ba3c5fe1d6d6708b5bffaeb6942b7e04-Abstract.html)]
+   - Wenling Shang, Xiaofei Wang, Aravind Srinivas, Aravind Rajeswaran, Yang Gao, Pieter Abbeel, Michael Laskin. *NeurIPS 2021*.
+ - **Nearly Minimax Optimal Reinforcement Learning for Discounted MDPs.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/bb57db42f77807a9c5823bd8c2d9aaef-Abstract.html)]
+   - Jiafan He, Dongruo Zhou, Quanquan Gu. *NeurIPS 2021*.
+ - **Reinforcement Learning Enhanced Explainer for Graph Neural Networks.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/be26abe76fb5c8a4921cf9d3e865b454-Abstract.html)]
+   - Caihua Shan, Yifei Shen, Yao Zhang, Xiang Li, Dongsheng Li. *NeurIPS 2021*.
+ - **The Sensory Neuron as a Transformer: Permutation-Invariant Neural Networks for Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/be3e9d3f7d70537357c67bb3f4086846-Abstract.html)]
+   - Yujin Tang, David Ha. *NeurIPS 2021*.
+ - **Causal Influence Detection for Improving Efficiency in Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/c1722a7941d61aad6e651a35b65a9c3e-Abstract.html)]
+   - Maximilian Seitzer, Bernhard Schölkopf, Georg Martius. *NeurIPS 2021*.
+ - **Sample-Efficient Reinforcement Learning for Linearly-Parameterized MDPs with a Generative Model.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/c21f4ce780c5c9d774f79841b81fdc6d-Abstract.html)]
+   - Bingyan Wang, Yuling Yan, Jianqing Fan. *NeurIPS 2021*.
+ - **RMIX: Learning Risk-Sensitive Policies for Cooperative Reinforcement Learning Agents.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/c2626d850c80ea07e7511bbae4c76f4b-Abstract.html)]
+   - Wei Qiu, Xinrun Wang, Runsheng Yu, Rundong Wang, Xu He, Bo An, Svetlana Obraztsova, Zinovi Rabinovich. *NeurIPS 2021*.
+ - **The Difficulty of Passive Learning in Deep Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/c3e0c62ee91db8dc7382bde7419bb573-Abstract.html)]
+   - Georg Ostrovski, Pablo Samuel Castro, Will Dabney. *NeurIPS 2021*.
+ - **A Hierarchical Reinforcement Learning Based Optimization Framework for Large-scale Dynamic Pickup and Delivery Problems.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/c6a01432c8138d46ba39957a8250e027-Abstract.html)]
+   - Yi Ma, Xiaotian Hao, Jianye Hao, Jiawen Lu, Xing Liu, Xialiang Tong, Mingxuan Yuan, Zhigang Li, Jie Tang, Zhaopeng Meng. *NeurIPS 2021*.
+ - **Symbolic Regression via Deep Reinforcement Learning Enhanced Genetic Programming Seeding.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/d073bb8d0c47f317dd39de9c9f004e9d-Abstract.html)]
+   - T. Nathan Mundhenk, Mikel Landajuela, Ruben Glatt, Cláudio P. Santiago, Daniel M. Faissol, Brenden K. Petersen. *NeurIPS 2021*.
+ - **Machine versus Human Attention in Deep Reinforcement Learning Tasks.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/d58e2f077670f4de9cd7963c857f2534-Abstract.html)]
+   - Sihang Guo, Ruohan Zhang, Bo Liu, Yifeng Zhu, Dana H. Ballard, Mary M. Hayhoe, Peter Stone. *NeurIPS 2021*.
+ - **Offline Constrained Multi-Objective Reinforcement Learning via Pessimistic Dual Value Iteration.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/d5c8e1ab6fc0bfeb5f29aafa999cdb29-Abstract.html)]
+   - Runzhe Wu, Yufeng Zhang, Zhuoran Yang, Zhaoran Wang. *NeurIPS 2021*.
+ - **Learning Barrier Certificates: Towards Safe Reinforcement Learning with Zero Training-time Violations.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/d71fa38b648d86602d14ac610f2e6194-Abstract.html)]
+   - Yuping Luo, Tengyu Ma. *NeurIPS 2021*.
+ - **A Max-Min Entropy Framework for Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/d7b76edf790923bf7177f7ebba5978df-Abstract.html)]
+   - Seungyul Han, Youngchul Sung. *NeurIPS 2021*.
+ - **Robust Inverse Reinforcement Learning under Transition Dynamics Mismatch.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/d9e74f47610385b11e295eec4c58d473-Abstract.html)]
+   - Luca Viano, Yu-Ting Huang, Parameswaran Kamalaruban, Adrian Weller, Volkan Cevher. *NeurIPS 2021*.
+ - **Robust Deep Reinforcement Learning through Adversarial Loss.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/dbb422937d7ff56e049d61da730b3e11-Abstract.html)]
+   - Tuomas P. Oikarinen, Wang Zhang, Alexandre Megretski, Luca Daniel, Tsui-Wei Weng. *NeurIPS 2021*.
+ - **Provable Model-based Nonlinear Bandit and Reinforcement Learning: Shelve Optimism, Embrace Virtual Curvature.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/dc5d637ed5e62c36ecb73b654b05ba2a-Abstract.html)]
+   - Kefan Dong, Jiaqi Yang, Tengyu Ma. *NeurIPS 2021*.
+ - **Improving Computational Efficiency in Visual Reinforcement Learning via Stored Embeddings.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/e140dbab44e01e699491a59c9978b924-Abstract.html)]
+   - Lili Chen, Kimin Lee, Aravind Srinivas, Pieter Abbeel. *NeurIPS 2021*.
+ - **Successor Feature Landmarks for Long-Horizon Goal-Conditioned Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/e27c71957d1e6c223e0d48a165da2ee1-Abstract.html)]
+   - Christopher Hoang, Sungryull Sohn, Jongwook Choi, Wilka Carvalho, Honglak Lee. *NeurIPS 2021*.
+ - **Policy Finetuning: Bridging Sample-Efficient Offline and Online Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/e61eaa38aed621dd776d0e67cfeee366-Abstract.html)]
+   - Tengyang Xie, Nan Jiang, Huan Wang, Caiming Xiong, Yu Bai. *NeurIPS 2021*.
+ - **Online and Offline Reinforcement Learning by Planning with a Learned Model.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/e8258e5140317ff36c7f8225a3bf9590-Abstract.html)]
+   - Julian Schrittwieser, Thomas Hubert, Amol Mandhane, Mohammadamin Barekatain, Ioannis Antonoglou, David Silver. *NeurIPS 2021*.
+ - **Variational Bayesian Reinforcement Learning with Regret Bounds.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/edb446b67d69adbfe9a21068982000c2-Abstract.html)]
+   - Brendan O'Donoghue. *NeurIPS 2021*.
+ - **Landmark-Guided Subgoal Generation in Hierarchical Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/ee39e503b6bedf0c98c388b7e8589aca-Abstract.html)]
+   - Junsu Kim, Younggyo Seo, Jinwoo Shin. *NeurIPS 2021*.
+ - **Parametrized Quantum Policies for Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/eec96a7f788e88184c0e713456026f3f-Abstract.html)]
+   - Sofiène Jerbi, Casper Gyurik, Simon C. Marshall, Hans J. Briegel, Vedran Dunjko. *NeurIPS 2021*.
+ - **On Pathologies in KL-Regularized Reinforcement Learning from Expert Demonstrations.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/eecca5b6365d9607ee5a9d336962c534-Abstract.html)]
+   - Tim G. J. Rudner, Cong Lu, Michael A. Osborne, Yarin Gal, Yee Whye Teh. *NeurIPS 2021*.
+ - **Continual World: A Robotic Benchmark For Continual Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/ef8446f35513a8d6aa2308357a268a7e-Abstract.html)]
+   - Maciej Wolczyk, Michal Zajac, Razvan Pascanu, Lukasz Kucinski, Piotr Milos. *NeurIPS 2021*.
+ - **Unsupervised Domain Adaptation with Dynamics-Aware Rewards in Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/f187a23c3ee681ef6913f31fd6d6446b-Abstract.html)]
+   - Jinxin Liu, Hao Shen, Donglin Wang, Yachen Kang, Qiangxing Tian. *NeurIPS 2021*.
+ - **Deep Reinforcement Learning at the Edge of the Statistical Precipice.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/f514cec81cb148559cf475e7426eed5e-Abstract.html)]
+   - Rishabh Agarwal, Max Schwarzer, Pablo Samuel Castro, Aaron C. Courville, Marc G. Bellemare. *NeurIPS 2021*.
+ - **Offline Reinforcement Learning with Reverse Model-based Imagination.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/f5e647292cc4e1064968ca62bebe7e47-Abstract.html)]
+   - Jianhao Wang, Wenzhe Li, Haozhe Jiang, Guangxiang Zhu, Siyuan Li, Chongjie Zhang. *NeurIPS 2021*.
+ - **Program Synthesis Guided Reinforcement Learning for Partially Observed Environments.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/f7e2b2b75b04175610e5a00c1e221ebb-Abstract.html)]
+   - Yichen Yang, Jeevana Priya Inala, Osbert Bastani, Yewen Pu, Armando Solar-Lezama, Martin C. Rinard. *NeurIPS 2021*.
+ - **Structural Credit Assignment in Neural Networks using Reinforcement Learning.** [[pdf](https://proceedings.neurips.cc/paper/2021/hash/fe1f9c70bdf347497e1a01b6c486bdb9-Abstract.html)]
+   - Dhawal Gupta, Gabor Mihucz, Matthew Schlegel, James E. Kostas, Philip S. Thomas, Martha White. *NeurIPS 2021*.
+
