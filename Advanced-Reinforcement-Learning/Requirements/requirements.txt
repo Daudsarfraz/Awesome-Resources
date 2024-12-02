@@ -145,7 +145,7 @@ typing_extensions==4.9.0
 ufal.pybox2d==2.3.10.2
 unicodedata2 @ file:///D:/bld/unicodedata2_1695847967701/work
 uri-template==1.3.0
-urllib3==2.1.0
+urllib3==2.2.2
 wcwidth==0.2.12
 webcolors==1.13
 webencodings==0.5.1
