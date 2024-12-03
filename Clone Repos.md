@@ -1,8 +1,3 @@
-## Extract GitHub Links from Awesome Lists
-
-The following Python script extracts all GitHub repository links from a list of awesome lists and saves them to a text file.
-
-```python
 import re
 
 # The list of Awesome Lists as a string
