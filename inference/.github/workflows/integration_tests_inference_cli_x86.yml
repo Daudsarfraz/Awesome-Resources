@@ -1,0 +1,47 @@
+name: INTEGRATION TESTS - inference CLI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  call_is_mergeable:
+    uses: ./.github/workflows/is_mergeable.yml
+    secrets: inherit
+  build-dev-test:
+    needs: call_is_mergeable
+    if: ${{ github.event_name != 'pull_request' || needs.call_is_mergeable.outputs.mergeable_state != 'not_clean' }}
+    runs-on:
+      labels: depot-ubuntu-22.04-small
+      group: public-depot
+    timeout-minutes: 30
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.10"]
+    steps:
+      - name: 🛎️ Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+      - name: 🐍 Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          check-latest: true
+      - name: 📦 Cache Python packages
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ matrix.python-version }}-${{ hashFiles('requirements/**') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-${{ matrix.python-version }}-
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install --upgrade setuptools
+          pip install -r requirements/requirements.cli.txt -r requirements/requirements.sdk.http.txt -r requirements/requirements.test.unit.txt
+      - name: 🧪 Integration Tests of Inference CLI
+        run: RUN_TESTS_EXPECTING_ERROR_WHEN_INFERENCE_NOT_INSTALLED=True INFERENCE_CLI_TESTS_API_KEY=${{ secrets.LOAD_TEST_PRODUCTION_API_KEY }} python -m pytest tests/inference_cli/integration_tests

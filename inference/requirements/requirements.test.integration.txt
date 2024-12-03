@@ -1,0 +1,7 @@
+python-dotenv<=2.0.0
+requests
+pytest
+pillow 
+requests_toolbelt
+numpy<=1.26.4
+pytest-retry<=1.6.3

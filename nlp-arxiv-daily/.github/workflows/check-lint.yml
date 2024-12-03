@@ -1,0 +1,22 @@
+name: check-lint
+
+on: [pull_request]
+
+jobs:
+  check-lint:
+    runs-on: [self-hosted, linux]
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+      - name: Check Lint (black, flake8, isort)
+        run: |
+          make quality

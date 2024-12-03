@@ -1,0 +1,95 @@
+FROM nvcr.io/nvidia/l4t-ml:r32.7.1-py3
+
+ARG DEBIAN_FRONTEND=noninteractive
+ENV LANG en_US.UTF-8 
+
+RUN apt-get update -y && apt-get upgrade -y && apt-get install -y \
+    build-essential \
+    zlib1g-dev \
+    libncurses5-dev \
+    libgdbm-dev \
+    libnss3-dev \
+    libssl-dev \ 
+    libreadline-dev \
+    libffi-dev \
+    curl \
+    libbz2-dev \
+    software-properties-common
+
+RUN wget https://www.python.org/ftp/python/3.9.0/Python-3.9.0.tar.xz && tar -xf Python-3.9.0.tar.xz && rm Python-3.9.0.tar.xz
+WORKDIR ./Python-3.9.0
+RUN ./configure && make altinstall
+
+RUN apt-get update -y && apt-get upgrade -y && apt-get install -y \
+    lshw \
+    git \
+    python3-pip \
+    python3-matplotlib \
+    gfortran \
+    build-essential \
+    libatlas-base-dev \
+    libsm6 \
+    libxext6 \
+    wget \
+    python3-shapely \
+    gdal-bin \
+    libgdal-dev \
+    python3-setuptools \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY requirements/requirements.clip.txt \
+    requirements/requirements.http.txt \
+    requirements/requirements.doctr.txt \
+    requirements/requirements.groundingdino.txt \
+    requirements/requirements.sdk.http.txt \
+    requirements/requirements.yolo_world.txt \
+    requirements/_requirements.txt \
+    ./
+
+RUN python3.9 -m pip install --ignore-installed PyYAML && rm -rf ~/.cache/pip
+
+RUN python3.9 -m pip install --upgrade pip "h5py<=3.10.0" && python3.9 -m pip install \
+    -r _requirements.txt \
+    -r requirements.clip.txt \
+    -r requirements.http.txt \
+    -r requirements.doctr.txt \
+    -r requirements.groundingdino.txt \
+    -r requirements.sdk.http.txt \
+    -r requirements.yolo_world.txt \
+    jupyterlab \
+    "setuptools<=75.5.0" \
+    --upgrade \
+    && rm -rf ~/.cache/pip
+
+RUN python3.9 -m pip uninstall --yes onnxruntime
+RUN wget https://nvidia.box.com/shared/static/jmomlpcctmjojz14zbwa12lxmeh2h6o5.whl -O onnxruntime_gpu-1.11.0-cp39-cp39-linux_aarch64.whl
+RUN python3.9 -m pip install onnxruntime_gpu-1.11.0-cp39-cp39-linux_aarch64.whl \
+    && rm -rf ~/.cache/pip \
+    && rm onnxruntime_gpu-1.11.0-cp39-cp39-linux_aarch64.whl
+
+WORKDIR /app/
+COPY inference inference
+COPY inference_sdk inference_sdk
+COPY docker/config/gpu_http.py gpu_http.py
+
+ENV VERSION_CHECK_MODE=continuous
+ENV PROJECT=roboflow-platform
+ENV ORT_TENSORRT_FP16_ENABLE=1
+ENV ORT_TENSORRT_ENGINE_CACHE_ENABLE=1
+ENV CORE_MODEL_SAM_ENABLED=False
+ENV PROJECT=roboflow-platform
+ENV NUM_WORKERS=1
+ENV HOST=0.0.0.0
+ENV PORT=9001
+ENV OPENBLAS_CORETYPE=ARMV8
+ENV WORKFLOWS_STEP_EXECUTION_MODE=local
+ENV WORKFLOWS_MAX_CONCURRENT_STEPS=2
+ENV API_LOGGING_ENABLED=True
+ENV CORE_MODEL_TROCR_ENABLED=false
+ENV RUNS_ON_JETSON=True
+ENV ENABLE_WORKFLOWS_PROFILING=True
+ENV ENABLE_PROMETHEUS=True
+ENV ENABLE_STREAM_API=True
+ENV STREAM_API_PRELOADED_PROCESSES=2
+
+ENTRYPOINT uvicorn gpu_http:app --workers $NUM_WORKERS --host $HOST --port $PORT

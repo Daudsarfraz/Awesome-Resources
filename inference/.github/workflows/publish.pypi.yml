@@ -1,0 +1,38 @@
+name: Publish Wheels to PyPi
+
+on:
+  release:
+    types: [created]
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+
+jobs:
+  build:
+    runs-on:
+      labels: depot-ubuntu-22.04-small
+      group: public-depot
+    timeout-minutes: 20
+    strategy:
+      matrix:
+        python-version: [3.9]
+    steps:
+      - name: 🛎️ Checkout
+        uses: actions/checkout@v4
+      - name: 🐍 Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: 📦 Cache Python packages
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ matrix.python-version }}-${{ hashFiles('requirements/**') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-${{ matrix.python-version }}-
+      - name: 🛞 Create Wheels
+        run: |
+          make create_wheels
+      - name: 🚀 Publish to PyPi
+        uses: pypa/gh-action-pypi-publish@release/v1

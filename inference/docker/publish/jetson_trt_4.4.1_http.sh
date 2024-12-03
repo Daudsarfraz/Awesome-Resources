@@ -1,0 +1,1 @@
+docker/publish/deploy_docker_image.sh roboflow/roboflow-inference-server-jetson-4.4.1 docker/dockerfiles/Dockerfile.onnx.jetson.4.4.1
