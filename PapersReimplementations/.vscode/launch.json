@@ -1,0 +1,154 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH": "${workspaceFolder}"},
+            "justMyCode": false
+        },
+        {
+            "name": "cv - ddpm",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/cv/ddpm/ddpm.py",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH": "${workspaceFolder}"},
+            "justMyCode": true
+        },
+        {
+            "name": "cv - ign",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/cv/ign/main.py",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH": "${workspaceFolder}"},
+            "justMyCode": true
+        },
+        {
+            "name": "cv - normalizing flows",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/cv/nf/normalizing_flows.py",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH": "${workspaceFolder}"},
+            "justMyCode": true
+        },
+        {
+            "name": "cv - vir",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/cv/vir/train.py",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH": "${workspaceFolder}"},
+            "justMyCode": true
+        },
+        {
+            "name": "cv - vit",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/cv/vit/vit_torch.py",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH": "${workspaceFolder}"},
+            "justMyCode": true
+        },
+        {
+            "name": "fff",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/fff/main.py",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH": "${workspaceFolder}"},
+            "justMyCode": true
+        },
+        {
+            "name": "gnns",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/gnns/gnns.py",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH": "${workspaceFolder}"},
+            "justMyCode": true
+        },
+        {
+            "name": "nlp - bert",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/nlp/bert/main.py",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH": "${workspaceFolder}"},
+            "args": [
+                "--max_train_steps", "80",
+                "--warmup_steps", "30",
+            ],
+            "justMyCode": true
+        },
+        {
+            "name": "nlp - gpt",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/nlp/gpt/main.py",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH": "${workspaceFolder}"},
+            "args": [
+                "--max_train_steps", "80",
+                "--warmup_steps", "8",
+                "--batch_size", "16",
+            ],
+            "justMyCode": true
+        },
+        {
+            "name": "nlp - lm compression",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/nlp/lm_is_compression/lm_is_compression.py",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH": "${workspaceFolder}"},
+            "justMyCode": true
+        },
+        {
+            "name": "nlp - original",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/nlp/original/main.py",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH": "${workspaceFolder}"},
+            "args": [
+                "--max_train_steps", "80",
+                "--warmup_steps", "8",
+                "--batch_size", "4",
+            ],
+            "justMyCode": true
+        },
+        {
+            "name": "nlp - watermark",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/nlp/lm_watermarking/main.py",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH": "${workspaceFolder}"},
+            "justMyCode": true
+        },
+        {
+            "name": "rl - dqn",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/rl/dqn/main.py",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH": "${workspaceFolder}"},
+            "justMyCode": true
+        },
+        {
+            "name": "rl - ppo",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/rl/ppo/ppo.py",
+            "console": "integratedTerminal",
+            "env": {"PYTHONPATH": "${workspaceFolder}"},
+            "justMyCode": true
+        }
+    ]
+}

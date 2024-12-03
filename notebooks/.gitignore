@@ -1,0 +1,9 @@
+.idea/
+.vscode/
+
+env/
+venv/
+.venv/
+
+.DS_Store
+.ipynb_checkpoints
