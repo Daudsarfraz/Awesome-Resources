@@ -39,7 +39,7 @@ glfw==2.6.3
 gym @ file:///D:/bld/gym_1644329041679/work
 gym-notices @ file:///home/conda/feedstock_root/build_artifacts/gym-notices_1671541680412/work
 gymnasium==0.29.1
-idna==3.6
+idna==3.7
 imageio==2.33.1
 imageio-ffmpeg==0.4.9
 importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1701632192416/work
