@@ -134,7 +134,7 @@ terminado==0.18.0
 tinycss2==1.2.1
 toml @ file:///home/conda/feedstock_root/build_artifacts/toml_1604308577558/work
 tomli==2.0.1
-torch==2.1.1+cu118
+torch==2.2.0
 torchaudio==2.1.1+cu118
 torchvision==0.16.1+cu118
 tornado @ file:///D:/bld/tornado_1695373623388/work
